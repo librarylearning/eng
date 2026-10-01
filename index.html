@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- =============================================================
+     FILE: /index.html
+     WHAT IT IS: The one and only web page. Every page she sees
+     (Home, Sounds, Stories...) is drawn inside it by the
+     JavaScript files listed at the bottom.
+     ============================================================= -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Coffee &amp; Letters</title>
+  <meta name="description" content="A warm, patient place to practice English sounds, words, stories, typing, and computer skills.">
+
+  <!-- Free fonts from Google Fonts.
+       Atkinson Hyperlegible: made so every letter is easy to tell apart.
+       Young Serif: warm, handmade-looking titles. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Young+Serif&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP BAR: the same on every page. Big Home button on the left. -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <button type="button" id="home-btn" class="btn btn-home" data-say="Home">
+        <span class="icon" aria-hidden="true">🏠</span><span class="label">Home</span>
+      </button>
+      <h1 id="screen-title" class="screen-title sayable" tabindex="0">Home</h1>
+      <div class="brand" aria-hidden="true">
+        <span class="brand-name">Coffee &amp; Letters</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN AREA: each page is drawn here -->
+  <main id="screen" class="app" tabindex="-1"></main>
+
+  <!-- CELEBRATION: the coffee cup pop-up after a practice -->
+  <div id="celebrate" class="celebrate" hidden></div>
+
+  <noscript>
+    <p class="notice">This website needs JavaScript. Please turn it on in your browser settings.</p>
+  </noscript>
+
+  <!-- SHARED TOOLS (keep this order) -->
+  <script src="js/storage.js"></script>
+  <script src="js/voice.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/dictionary.js"></script>
+
+  <!-- PRACTICE MODULES (one file each). Remove a line to hide a module. -->
+  <script src="js/sounds.js"></script>
+  <script src="js/words.js"></script>
+  <script src="js/grammar.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/stories.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/computer.js"></script>
+  <script src="js/teacher.js"></script>
+
+</body>
+</html>

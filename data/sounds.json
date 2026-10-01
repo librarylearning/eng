@@ -1,0 +1,599 @@
+{
+  "_help": "Sound Explorer data. letters: name = how the letter is said, sound = how the computer voice says its sound (record audio/sound-b.mp3 etc. for a real voice), word + picture = the example. blend: short words to sound out. pairs: two words that sound alike; focus = the sounds to listen for. vowels: each vowel's short sound (quick) and long sound (says its name), with picture words. magicE: word pairs where a quiet e at the end makes the vowel long. vowelQuiz: words for the 'Short or long?' game; long is true or false; why is said after a right answer.",
+  "letters": [
+    {
+      "letter": "a",
+      "name": "ay",
+      "sound": "ah",
+      "word": "apple",
+      "picture": "🍎"
+    },
+    {
+      "letter": "b",
+      "name": "bee",
+      "sound": "buh",
+      "word": "bus",
+      "picture": "🚌"
+    },
+    {
+      "letter": "c",
+      "name": "see",
+      "sound": "kuh",
+      "word": "cup",
+      "picture": "☕"
+    },
+    {
+      "letter": "d",
+      "name": "dee",
+      "sound": "duh",
+      "word": "door",
+      "picture": "🚪"
+    },
+    {
+      "letter": "e",
+      "name": "ee",
+      "sound": "eh",
+      "word": "egg",
+      "picture": "🥚"
+    },
+    {
+      "letter": "f",
+      "name": "eff",
+      "sound": "fuh",
+      "word": "fish",
+      "picture": "🐟"
+    },
+    {
+      "letter": "g",
+      "name": "jee",
+      "sound": "guh",
+      "word": "gift",
+      "picture": "🎁"
+    },
+    {
+      "letter": "h",
+      "name": "aitch",
+      "sound": "huh",
+      "word": "house",
+      "picture": "🏠"
+    },
+    {
+      "letter": "i",
+      "name": "eye",
+      "sound": "ih",
+      "word": "ink",
+      "picture": "🖋️"
+    },
+    {
+      "letter": "j",
+      "name": "jay",
+      "sound": "juh",
+      "word": "jacket",
+      "picture": "🧥"
+    },
+    {
+      "letter": "k",
+      "name": "kay",
+      "sound": "kuh",
+      "word": "key",
+      "picture": "🔑"
+    },
+    {
+      "letter": "l",
+      "name": "el",
+      "sound": "luh",
+      "word": "lemon",
+      "picture": "🍋"
+    },
+    {
+      "letter": "m",
+      "name": "em",
+      "sound": "muh",
+      "word": "milk",
+      "picture": "🥛"
+    },
+    {
+      "letter": "n",
+      "name": "en",
+      "sound": "nuh",
+      "word": "nose",
+      "picture": "👃🏾"
+    },
+    {
+      "letter": "o",
+      "name": "oh",
+      "sound": "aw",
+      "word": "ox",
+      "picture": "🐂"
+    },
+    {
+      "letter": "p",
+      "name": "pee",
+      "sound": "puh",
+      "word": "pen",
+      "picture": "🖊️"
+    },
+    {
+      "letter": "q",
+      "name": "cue",
+      "sound": "kwuh",
+      "word": "queen",
+      "picture": "👑"
+    },
+    {
+      "letter": "r",
+      "name": "ar",
+      "sound": "ruh",
+      "word": "rice",
+      "picture": "🍚"
+    },
+    {
+      "letter": "s",
+      "name": "ess",
+      "sound": "suh",
+      "word": "soap",
+      "picture": "🧼"
+    },
+    {
+      "letter": "t",
+      "name": "tee",
+      "sound": "tuh",
+      "word": "tea",
+      "picture": "🍵"
+    },
+    {
+      "letter": "u",
+      "name": "you",
+      "sound": "uh",
+      "word": "umbrella",
+      "picture": "☂️"
+    },
+    {
+      "letter": "v",
+      "name": "vee",
+      "sound": "vuh",
+      "word": "van",
+      "picture": "🚐"
+    },
+    {
+      "letter": "w",
+      "name": "double you",
+      "sound": "wuh",
+      "word": "water",
+      "picture": "💧"
+    },
+    {
+      "letter": "x",
+      "name": "ex",
+      "sound": "ks",
+      "word": "box",
+      "picture": "📦"
+    },
+    {
+      "letter": "y",
+      "name": "why",
+      "sound": "yuh",
+      "word": "yarn",
+      "picture": "🧶"
+    },
+    {
+      "letter": "z",
+      "name": "zee",
+      "sound": "zuh",
+      "word": "zero",
+      "picture": "0️⃣"
+    }
+  ],
+  "vowels": [
+    {
+      "letter": "a",
+      "shortSound": "ah",
+      "longSound": "ay",
+      "short": {
+        "word": "cat",
+        "picture": "🐈"
+      },
+      "long": {
+        "word": "cake",
+        "picture": "🎂"
+      }
+    },
+    {
+      "letter": "e",
+      "shortSound": "eh",
+      "longSound": "ee",
+      "short": {
+        "word": "egg",
+        "picture": "🥚"
+      },
+      "long": {
+        "word": "tree",
+        "picture": "🌳"
+      }
+    },
+    {
+      "letter": "i",
+      "shortSound": "ih",
+      "longSound": "eye",
+      "short": {
+        "word": "fish",
+        "picture": "🐟"
+      },
+      "long": {
+        "word": "kite",
+        "picture": "🪁"
+      }
+    },
+    {
+      "letter": "o",
+      "shortSound": "aw",
+      "longSound": "oh",
+      "short": {
+        "word": "hot",
+        "picture": "🔥"
+      },
+      "long": {
+        "word": "rose",
+        "picture": "🌹"
+      }
+    },
+    {
+      "letter": "u",
+      "shortSound": "uh",
+      "longSound": "you",
+      "short": {
+        "word": "cup",
+        "picture": "☕"
+      },
+      "long": {
+        "word": "cube",
+        "picture": "🧊"
+      }
+    }
+  ],
+  "magicE": [
+    {
+      "short": "pin",
+      "shortPicture": "📌",
+      "long": "pine",
+      "longPicture": "🌲"
+    },
+    {
+      "short": "cub",
+      "shortPicture": "🐻",
+      "long": "cube",
+      "longPicture": "🧊"
+    },
+    {
+      "short": "kit",
+      "shortPicture": "🧰",
+      "long": "kite",
+      "longPicture": "🪁"
+    },
+    {
+      "short": "can",
+      "shortPicture": "🥫",
+      "long": "cane",
+      "longPicture": "🦯"
+    },
+    {
+      "short": "cut",
+      "shortPicture": "✂️",
+      "long": "cute",
+      "longPicture": "🥰"
+    },
+    {
+      "short": "hop",
+      "shortPicture": "🐇",
+      "long": "hope",
+      "longPicture": "🙏🏾"
+    }
+  ],
+  "vowelQuiz": [
+    {
+      "word": "cat",
+      "picture": "🐈",
+      "vowel": "a",
+      "long": false,
+      "why": "One vowel in the middle is short: cat."
+    },
+    {
+      "word": "cake",
+      "picture": "🎂",
+      "vowel": "a",
+      "long": true,
+      "why": "The quiet e at the end makes a say its name: cake."
+    },
+    {
+      "word": "rain",
+      "picture": "🌧️",
+      "vowel": "a",
+      "long": true,
+      "why": "a and i together say a: rain."
+    },
+    {
+      "word": "bed",
+      "picture": "🛏️",
+      "vowel": "e",
+      "long": false,
+      "why": "One vowel in the middle is short: bed."
+    },
+    {
+      "word": "tree",
+      "picture": "🌳",
+      "vowel": "e",
+      "long": true,
+      "why": "Two e's together say e: tree."
+    },
+    {
+      "word": "tea",
+      "picture": "🍵",
+      "vowel": "e",
+      "long": true,
+      "why": "e and a together say e: tea."
+    },
+    {
+      "word": "fish",
+      "picture": "🐟",
+      "vowel": "i",
+      "long": false,
+      "why": "One vowel in the middle is short: fish."
+    },
+    {
+      "word": "milk",
+      "picture": "🥛",
+      "vowel": "i",
+      "long": false,
+      "why": "One vowel in the middle is short: milk."
+    },
+    {
+      "word": "kite",
+      "picture": "🪁",
+      "vowel": "i",
+      "long": true,
+      "why": "The quiet e at the end makes i say its name: kite."
+    },
+    {
+      "word": "hot",
+      "picture": "🔥",
+      "vowel": "o",
+      "long": false,
+      "why": "One vowel in the middle is short: hot."
+    },
+    {
+      "word": "rose",
+      "picture": "🌹",
+      "vowel": "o",
+      "long": true,
+      "why": "The quiet e at the end makes o say its name: rose."
+    },
+    {
+      "word": "boat",
+      "picture": "⛵",
+      "vowel": "o",
+      "long": true,
+      "why": "o and a together say o: boat."
+    },
+    {
+      "word": "cup",
+      "picture": "☕",
+      "vowel": "u",
+      "long": false,
+      "why": "One vowel in the middle is short: cup."
+    },
+    {
+      "word": "bus",
+      "picture": "🚌",
+      "vowel": "u",
+      "long": false,
+      "why": "One vowel in the middle is short: bus."
+    },
+    {
+      "word": "cube",
+      "picture": "🧊",
+      "vowel": "u",
+      "long": true,
+      "why": "The quiet e at the end makes u say its name: cube."
+    }
+  ],
+  "blend": [
+    {
+      "word": "bus",
+      "picture": "🚌"
+    },
+    {
+      "word": "cup",
+      "picture": "☕"
+    },
+    {
+      "word": "map",
+      "picture": "🗺️"
+    },
+    {
+      "word": "pen",
+      "picture": "🖊️"
+    },
+    {
+      "word": "hat",
+      "picture": "👒"
+    },
+    {
+      "word": "sun",
+      "picture": "☀️"
+    },
+    {
+      "word": "bed",
+      "picture": "🛏️"
+    },
+    {
+      "word": "box",
+      "picture": "📦"
+    },
+    {
+      "word": "pot",
+      "picture": "🍲"
+    },
+    {
+      "word": "ten",
+      "picture": "🔟"
+    },
+    {
+      "word": "bag",
+      "picture": "👜"
+    },
+    {
+      "word": "red",
+      "picture": "🟥"
+    },
+    {
+      "word": "hot",
+      "picture": "🔥"
+    },
+    {
+      "word": "nut",
+      "picture": "🥜"
+    },
+    {
+      "word": "pin",
+      "picture": "📌"
+    },
+    {
+      "word": "jam",
+      "picture": "🍓"
+    }
+  ],
+  "pairs": [
+    {
+      "focus": "p and b",
+      "a": {
+        "word": "pin",
+        "picture": "📌"
+      },
+      "b": {
+        "word": "bin",
+        "picture": "🗑️"
+      }
+    },
+    {
+      "focus": "p and b",
+      "a": {
+        "word": "pear",
+        "picture": "🍐"
+      },
+      "b": {
+        "word": "bear",
+        "picture": "🐻"
+      }
+    },
+    {
+      "focus": "p and b",
+      "a": {
+        "word": "peach",
+        "picture": "🍑"
+      },
+      "b": {
+        "word": "beach",
+        "picture": "🏖️"
+      }
+    },
+    {
+      "focus": "v and b",
+      "a": {
+        "word": "vote",
+        "picture": "🗳️"
+      },
+      "b": {
+        "word": "boat",
+        "picture": "⛵"
+      }
+    },
+    {
+      "focus": "v and b",
+      "a": {
+        "word": "vest",
+        "picture": "🦺"
+      },
+      "b": {
+        "word": "best",
+        "picture": "🏆"
+      }
+    },
+    {
+      "focus": "th and t",
+      "a": {
+        "word": "three",
+        "picture": "3️⃣"
+      },
+      "b": {
+        "word": "tree",
+        "picture": "🌳"
+      }
+    },
+    {
+      "focus": "th and s",
+      "a": {
+        "word": "mouth",
+        "picture": "👄"
+      },
+      "b": {
+        "word": "mouse",
+        "picture": "🐭"
+      }
+    },
+    {
+      "focus": "th and s",
+      "a": {
+        "word": "think",
+        "picture": "🤔"
+      },
+      "b": {
+        "word": "sink",
+        "picture": "🚰"
+      }
+    },
+    {
+      "focus": "i and ee",
+      "a": {
+        "word": "ship",
+        "picture": "🚢"
+      },
+      "b": {
+        "word": "sheep",
+        "picture": "🐑"
+      }
+    },
+    {
+      "focus": "i and ee",
+      "a": {
+        "word": "hill",
+        "picture": "⛰️"
+      },
+      "b": {
+        "word": "heel",
+        "picture": "👠"
+      }
+    },
+    {
+      "focus": "e and a",
+      "a": {
+        "word": "bed",
+        "picture": "🛏️"
+      },
+      "b": {
+        "word": "bad",
+        "picture": "👎🏾"
+      }
+    },
+    {
+      "focus": "sh and ch",
+      "a": {
+        "word": "ships",
+        "picture": "🚢"
+      },
+      "b": {
+        "word": "chips",
+        "picture": "🍟"
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "_help": "Grammar data. kinds: the kinds of words (noun, verb...), each with a plain meaning and examples. sentences: sentences where every word is labeled with its kind (for the color view). kindQuiz: a sentence and one word in it; she picks its kind. articles: practice for a / an / the; options are the choices shown, answer is the right one. verbs: regular verbs (add -ed; rule says which spelling rule) and irregular verbs (change in their own way). Each verb has a past-tense sentence that uses the past word exactly once.",
+
+  "kinds": [
+    {
+      "id": "noun", "name": "Noun", "icon": "🏷️",
+      "meaning": "A noun names a person, a place, or a thing.",
+      "tip": "Ask: who is it? What is it?",
+      "examples": [
+        { "word": "mother",  "picture": "👩🏾" },
+        { "word": "library", "picture": "📚" },
+        { "word": "cup",     "picture": "☕" }
+      ]
+    },
+    {
+      "id": "verb", "name": "Verb", "icon": "🏃🏾‍♀️",
+      "meaning": "A verb is an action. It is something you do.",
+      "tip": "Ask: what does she do? Am, is, and are are verbs too.",
+      "examples": [
+        { "word": "eat",  "picture": "🍽️" },
+        { "word": "walk", "picture": "🚶🏾‍♀️" },
+        { "word": "read", "picture": "📖" }
+      ]
+    },
+    {
+      "id": "adjective", "name": "Adjective", "icon": "🎨",
+      "meaning": "An adjective describes a noun. It tells the color, the size, or how it feels.",
+      "tip": "Ask: what kind? A hot tea. A big bus.",
+      "examples": [
+        { "word": "hot", "picture": "🔥" },
+        { "word": "big", "picture": "🐘" },
+        { "word": "red", "picture": "🟥" }
+      ]
+    },
+    {
+      "id": "adverb", "name": "Adverb", "icon": "🐢",
+      "meaning": "An adverb tells how or when you do something. Many adverbs end in -ly, like slowly.",
+      "tip": "Ask: how? When? She walks slowly.",
+      "examples": [
+        { "word": "slowly",  "picture": "🐢" },
+        { "word": "quickly", "picture": "⚡" },
+        { "word": "today",   "picture": "📅" }
+      ]
+    },
+    {
+      "id": "pronoun", "name": "Pronoun", "icon": "👉🏾",
+      "meaning": "A pronoun takes the place of a noun. I, you, he, she, it, we, they.",
+      "tip": "Mary is my friend. She is kind. She means Mary.",
+      "examples": [
+        { "word": "she",  "picture": "👩🏾" },
+        { "word": "we",   "picture": "👥" },
+        { "word": "it",   "picture": "📦" }
+      ]
+    },
+    {
+      "id": "preposition", "name": "Preposition", "icon": "📍",
+      "meaning": "A preposition tells where something is: in, on, under, next to, at.",
+      "tip": "The cup is on the table. The cat is under the bed.",
+      "examples": [
+        { "word": "in",    "picture": "📦" },
+        { "word": "on",    "picture": "🍽️" },
+        { "word": "under", "picture": "☂️" }
+      ]
+    },
+    {
+      "id": "article", "name": "Article", "icon": "🔤",
+      "meaning": "Articles are the small words before a noun: a, an, and the.",
+      "tip": "A cup. An egg. The sun.",
+      "examples": [
+        { "word": "a cup",   "picture": "☕" },
+        { "word": "an egg",  "picture": "🥚" },
+        { "word": "the sun", "picture": "☀️" }
+      ]
+    }
+  ],
+
+  "sentences": [
+    { "end": ".", "words": [["She","pronoun"],["drinks","verb"],["hot","adjective"],["coffee","noun"],["in","preposition"],["the","article"],["kitchen","noun"]] },
+    { "end": ".", "words": [["The","article"],["bus","noun"],["comes","verb"],["slowly","adverb"]] },
+    { "end": ".", "words": [["We","pronoun"],["buy","verb"],["fresh","adjective"],["bread","noun"],["at","preposition"],["the","article"],["store","noun"]] },
+    { "end": ".", "words": [["A","article"],["small","adjective"],["cup","noun"],["is","verb"],["on","preposition"],["the","article"],["table","noun"]] },
+    { "end": ".", "words": [["Sam","noun"],["calls","verb"],["me","pronoun"],["today","adverb"]] },
+    { "end": ".", "words": [["I","pronoun"],["walk","verb"],["to","preposition"],["the","article"],["library","noun"]] }
+  ],
+
+  "kindQuiz": [
+    { "sentence": "The tea is hot.",              "word": "hot",    "kind": "adjective" },
+    { "sentence": "I eat bread.",                 "word": "bread",  "kind": "noun" },
+    { "sentence": "She sings.",                   "word": "sings",  "kind": "verb" },
+    { "sentence": "The bag is under the chair.",  "word": "under",  "kind": "preposition" },
+    { "sentence": "They walk to the store.",      "word": "They",   "kind": "pronoun" },
+    { "sentence": "He reads slowly.",             "word": "slowly", "kind": "adverb" },
+    { "sentence": "I have an egg.",               "word": "an",     "kind": "article" },
+    { "sentence": "My daughter cooks rice.",      "word": "cooks",  "kind": "verb" },
+    { "sentence": "The doctor is kind.",          "word": "doctor", "kind": "noun" },
+    { "sentence": "The red car is fast.",         "word": "red",    "kind": "adjective" },
+    { "sentence": "We sit on the sofa.",          "word": "on",     "kind": "preposition" },
+    { "sentence": "Sam calls me today.",          "word": "today",  "kind": "adverb" }
+  ],
+
+  "articleRules": [
+    { "word": "a",   "meaning": "Use a for one thing, any one. Use it before a word that starts with a consonant sound.", "examples": ["a cup", "a bus", "a book"] },
+    { "word": "an",  "meaning": "Use an for one thing, before a word that starts with a vowel sound: a, e, i, o, u.", "examples": ["an egg", "an apple", "an orange"] },
+    { "word": "the", "meaning": "Use the for a special thing that we both know about. There is only one, or we talked about it before.", "examples": ["the sun", "the door", "the bus to the library"] }
+  ],
+  "articleTip": "Listen to the first sound, not the first letter. In hour, the h is quiet, so we say an hour.",
+
+  "articles": [
+    { "before": "I eat",          "after": "egg every morning.", "options": ["a", "an"],  "answer": "an",  "picture": "🥚", "why": "Egg starts with a vowel sound, so we say an egg." },
+    { "before": "She drinks",     "after": "cup of tea.",        "options": ["a", "an"],  "answer": "a",   "picture": "🍵", "why": "Cup starts with a consonant sound, so we say a cup." },
+    { "before": "My son has",     "after": "orange.",            "options": ["a", "an"],  "answer": "an",  "picture": "🍊", "why": "Orange starts with a vowel sound, so we say an orange." },
+    { "before": "I need",         "after": "bus pass.",          "options": ["a", "an"],  "answer": "a",   "picture": "🚌", "why": "Bus starts with a consonant sound, so we say a bus pass." },
+    { "before": "I see",          "after": "umbrella.",          "options": ["a", "an"],  "answer": "an",  "picture": "☂️", "why": "Umbrella starts with a vowel sound, so we say an umbrella." },
+    { "before": "He is",          "after": "doctor.",            "options": ["a", "an"],  "answer": "a",   "picture": "👨🏾‍⚕️", "why": "Doctor starts with a consonant sound, so we say a doctor." },
+    { "before": "We wait for",    "after": "hour.",              "options": ["a", "an"],  "answer": "an",  "picture": "⏰", "why": "In hour, the h is quiet. It starts with a vowel sound, so we say an hour." },
+    { "before": "Look at",        "after": "sun.",               "options": ["a", "the"], "answer": "the", "picture": "☀️", "why": "There is only one sun, so we say the sun." },
+    { "before": "Please close",   "after": "door.",              "options": ["a", "the"], "answer": "the", "picture": "🚪", "why": "We both know which door, so we say the door." },
+    { "before": "I bought a book.", "after": "book is big.",     "options": ["A", "The"], "answer": "The", "picture": "📗", "why": "We talked about the book before, so now we say the book." }
+  ],
+
+  "verbRules": [
+    { "rule": "ed",     "title": "Most verbs: add -ed",                   "examples": [["walk", "walked"], ["cook", "cooked"], ["call", "called"]] },
+    { "rule": "d",      "title": "Ends in e: add only -d",                "examples": [["bake", "baked"], ["smile", "smiled"]] },
+    { "rule": "ied",    "title": "Ends in a consonant and y: change y to -ied", "examples": [["carry", "carried"], ["study", "studied"]] },
+    { "rule": "double", "title": "Short word, one vowel: double the last letter", "examples": [["stop", "stopped"], ["shop", "shopped"]] }
+  ],
+  "edSounds": [
+    { "sound": "t",  "say": "t",  "example": "walked", "note": "sounds like t" },
+    { "sound": "d",  "say": "d",  "example": "called", "note": "sounds like d" },
+    { "sound": "id", "say": "id", "example": "wanted", "note": "an extra beat: id" }
+  ],
+
+  "verbs": [
+    { "base": "walk",  "past": "walked",  "type": "regular",   "picture": "🚶🏾‍♀️", "sentence": "Yesterday I walked to the library." },
+    { "base": "cook",  "past": "cooked",  "type": "regular",   "picture": "🍳", "sentence": "Last night she cooked rice." },
+    { "base": "call",  "past": "called",  "type": "regular",   "picture": "📞", "sentence": "My son called me on Sunday." },
+    { "base": "clean", "past": "cleaned", "type": "regular",   "picture": "🧹", "sentence": "We cleaned the kitchen." },
+    { "base": "wait",  "past": "waited",  "type": "regular",   "picture": "⏳", "sentence": "I waited for the bus." },
+    { "base": "bake",  "past": "baked",   "type": "regular",   "picture": "🍞", "sentence": "She baked bread this morning." },
+    { "base": "smile", "past": "smiled",  "type": "regular",   "picture": "😊", "sentence": "The nurse smiled at me." },
+    { "base": "carry", "past": "carried", "type": "regular",   "picture": "🛍️", "sentence": "I carried the bags home." },
+    { "base": "stop",  "past": "stopped", "type": "regular",   "picture": "🛑", "sentence": "The bus stopped at the market." },
+    { "base": "go",    "past": "went",    "type": "irregular", "picture": "🚌", "sentence": "Yesterday I went to the store." },
+    { "base": "eat",   "past": "ate",     "type": "irregular", "picture": "🍽️", "sentence": "We ate dinner together." },
+    { "base": "drink", "past": "drank",   "type": "irregular", "picture": "☕", "sentence": "She drank hot coffee." },
+    { "base": "see",   "past": "saw",     "type": "irregular", "picture": "👀", "sentence": "I saw the doctor on Monday." },
+    { "base": "buy",   "past": "bought",  "type": "irregular", "picture": "🛒", "sentence": "He bought milk and eggs." },
+    { "base": "have",  "past": "had",     "type": "irregular", "picture": "🤲🏾", "sentence": "I had a good day." },
+    { "base": "make",  "past": "made",    "type": "irregular", "picture": "🍲", "sentence": "My mother made soup." },
+    { "base": "come",  "past": "came",    "type": "irregular", "picture": "🏠", "sentence": "My grandson came to visit." },
+    { "base": "take",  "past": "took",    "type": "irregular", "picture": "💊", "sentence": "I took my medicine." },
+    { "base": "give",  "past": "gave",    "type": "irregular", "picture": "🎁", "sentence": "She gave me a gift." },
+    { "base": "sit",   "past": "sat",     "type": "irregular", "picture": "🪑", "sentence": "We sat by the window." },
+    { "base": "sleep", "past": "slept",   "type": "irregular", "picture": "😴", "sentence": "I slept well last night." },
+    { "base": "write", "past": "wrote",   "type": "irregular", "picture": "✍🏾", "sentence": "She wrote her name." }
+  ]
+}

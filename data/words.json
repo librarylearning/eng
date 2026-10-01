@@ -1,0 +1,424 @@
+{
+  "_help": "Word Builder data. Each theme has a group (shown as a heading), a name, a picture, and words. Each word has: word, syllables (from Merriam-Webster, with · between syllables), pos (part of speech), definition (plain English, based on Merriam-Webster), picture (an emoji, or a file like images/bus.jpg), sentence (a short example), and abstract (true for words with no clear picture; games ask about their meaning instead). To add a word, copy one line, change it, and keep the commas between lines.",
+  "themes": [
+    {
+      "id": "family",
+      "name": "Family",
+      "picture": "👨‍👩‍👧",
+      "group": "Everyday words",
+      "words": [
+        {"word": "mother", "syllables": "moth·er", "pos": "noun", "definition": "A woman who has a child; your female parent.", "picture": "👩🏾", "sentence": "My mother makes coffee."},
+        {"word": "father", "syllables": "fa·ther", "pos": "noun", "definition": "A man who has a child; your male parent.", "picture": "👨🏾", "sentence": "My father reads the news."},
+        {"word": "daughter", "syllables": "daugh·ter", "pos": "noun", "definition": "A girl or woman, when we talk about her parents.", "picture": "👧🏾", "sentence": "My daughter calls me on Sunday."},
+        {"word": "son", "syllables": "son", "pos": "noun", "definition": "A boy or man, when we talk about his parents.", "picture": "👦🏾", "sentence": "My son drives a blue car."},
+        {"word": "grandmother", "syllables": "grand·moth·er", "pos": "noun", "definition": "The mother of your mother or your father.", "picture": "👵🏾", "sentence": "I am a grandmother."},
+        {"word": "grandfather", "syllables": "grand·fa·ther", "pos": "noun", "definition": "The father of your mother or your father.", "picture": "👴🏾", "sentence": "The grandfather tells a story."},
+        {"word": "baby", "syllables": "ba·by", "pos": "noun", "definition": "A very young child.", "picture": "👶🏾", "sentence": "The baby is sleeping."},
+        {"word": "family", "syllables": "fam·i·ly", "pos": "noun", "definition": "Parents and their children; people who are related.", "picture": "👨‍👩‍👧", "sentence": "My family eats dinner together."}
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "picture": "🍲",
+      "group": "Everyday words",
+      "words": [
+        {"word": "bread", "syllables": "bread", "pos": "noun", "definition": "A food made from flour and baked in an oven.", "picture": "🍞", "sentence": "I buy bread at the store."},
+        {"word": "rice", "syllables": "rice", "pos": "noun", "definition": "Small grains that we cook and eat.", "picture": "🍚", "sentence": "We cook rice for dinner."},
+        {"word": "milk", "syllables": "milk", "pos": "noun", "definition": "A white drink that comes from cows.", "picture": "🥛", "sentence": "The milk is cold."},
+        {"word": "egg", "syllables": "egg", "pos": "noun", "definition": "A food with a shell that comes from a chicken.", "picture": "🥚", "sentence": "I eat one egg in the morning."},
+        {"word": "onion", "syllables": "on·ion", "pos": "noun", "definition": "A round vegetable with a strong taste and smell.", "picture": "🧅", "sentence": "I cut the onion."},
+        {"word": "tea", "syllables": "tea", "pos": "noun", "definition": "A hot drink made by putting tea leaves in hot water.", "picture": "🍵", "sentence": "The tea is hot."},
+        {"word": "coffee", "syllables": "cof·fee", "pos": "noun", "definition": "A hot drink made from roasted coffee beans.", "picture": "☕", "sentence": "I drink coffee with my friends."},
+        {"word": "water", "syllables": "wa·ter", "pos": "noun", "definition": "The clear liquid we drink; rain and rivers are water.", "picture": "💧", "sentence": "Please give me some water."}
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "picture": "🔢",
+      "group": "Everyday words",
+      "words": [
+        {"word": "one", "syllables": "one", "pos": "number", "definition": "The number 1.", "picture": "1️⃣", "sentence": "I have one son."},
+        {"word": "two", "syllables": "two", "pos": "number", "definition": "The number 2; one more than one.", "picture": "2️⃣", "sentence": "I need two eggs."},
+        {"word": "three", "syllables": "three", "pos": "number", "definition": "The number 3; one more than two.", "picture": "3️⃣", "sentence": "There are three cups."},
+        {"word": "four", "syllables": "four", "pos": "number", "definition": "The number 4; one more than three.", "picture": "4️⃣", "sentence": "The bus comes at four."},
+        {"word": "five", "syllables": "five", "pos": "number", "definition": "The number 5; one more than four.", "picture": "5️⃣", "sentence": "I walk for five minutes."},
+        {"word": "six", "syllables": "six", "pos": "number", "definition": "The number 6; one more than five.", "picture": "6️⃣", "sentence": "I wake up at six."},
+        {"word": "seven", "syllables": "sev·en", "pos": "number", "definition": "The number 7; one more than six.", "picture": "7️⃣", "sentence": "A week has seven days."},
+        {"word": "eight", "syllables": "eight", "pos": "number", "definition": "The number 8; one more than seven.", "picture": "8️⃣", "sentence": "The store opens at eight."},
+        {"word": "nine", "syllables": "nine", "pos": "number", "definition": "The number 9; one more than eight.", "picture": "9️⃣", "sentence": "I take the number nine bus."},
+        {"word": "ten", "syllables": "ten", "pos": "number", "definition": "The number 10; one more than nine.", "picture": "🔟", "sentence": "I have ten dollars."}
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "picture": "💵",
+      "group": "Everyday words",
+      "words": [
+        {"word": "dollar", "syllables": "dol·lar", "pos": "noun", "definition": "The basic unit of money in the United States.", "picture": "💵", "sentence": "This costs one dollar."},
+        {"word": "coin", "syllables": "coin", "pos": "noun", "definition": "A small, flat, round piece of metal money.", "picture": "🪙", "sentence": "I have a coin in my pocket."},
+        {"word": "price", "syllables": "price", "pos": "noun", "definition": "How much money something costs.", "picture": "🏷️", "sentence": "What is the price?"},
+        {"word": "card", "syllables": "card", "pos": "noun", "definition": "A small plastic card you use to pay or to use your bank account.", "picture": "💳", "sentence": "I pay with my card."},
+        {"word": "bank", "syllables": "bank", "pos": "noun", "definition": "A business that keeps money safe and lends money.", "picture": "🏦", "sentence": "The bank is next to the library."},
+        {"word": "receipt", "syllables": "re·ceipt", "pos": "noun", "definition": "A paper that shows you paid for something.", "picture": "🧾", "sentence": "Keep the receipt."},
+        {"word": "purse", "syllables": "purse", "pos": "noun", "definition": "A bag for carrying money and small things.", "picture": "👛", "sentence": "My keys are in my purse."},
+        {"word": "store", "syllables": "store", "pos": "noun", "definition": "A place where you buy things.", "picture": "🏪", "sentence": "The store is open."}
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "picture": "🩺",
+      "group": "Everyday words",
+      "words": [
+        {"word": "doctor", "syllables": "doc·tor", "pos": "noun", "definition": "A person whose job is to help sick people get well.", "picture": "👩🏾‍⚕️", "sentence": "I see the doctor on Monday."},
+        {"word": "medicine", "syllables": "med·i·cine", "pos": "noun", "definition": "Something you take to get better when you are sick.", "picture": "💊", "sentence": "I take my medicine with water."},
+        {"word": "pain", "syllables": "pain", "pos": "noun", "definition": "A feeling that hurts in your body.", "picture": "🤕", "sentence": "I have pain in my back."},
+        {"word": "hospital", "syllables": "hos·pi·tal", "pos": "noun", "definition": "A place where doctors and nurses care for sick and hurt people.", "picture": "🏥", "sentence": "The hospital is on Main Street."},
+        {"word": "fever", "syllables": "fe·ver", "pos": "noun", "definition": "A body temperature that is higher than normal.", "picture": "🤒", "sentence": "The baby has a fever."},
+        {"word": "appointment", "syllables": "ap·point·ment", "pos": "noun", "definition": "A planned time to meet someone, like a doctor.", "picture": "📅", "sentence": "My appointment is at ten."},
+        {"word": "sick", "syllables": "sick", "pos": "adjective", "definition": "Not well; having an illness.", "picture": "🤧", "sentence": "I feel sick today."},
+        {"word": "healthy", "syllables": "health·y", "pos": "adjective", "definition": "Well and strong; not sick.", "picture": "💪🏾", "sentence": "I walk to stay healthy."}
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "picture": "🏠",
+      "group": "Everyday words",
+      "words": [
+        {"word": "door", "syllables": "door", "pos": "noun", "definition": "The part you open and close to go in or out of a room or building.", "picture": "🚪", "sentence": "Please close the door."},
+        {"word": "bed", "syllables": "bed", "pos": "noun", "definition": "Furniture you lie on to sleep.", "picture": "🛏️", "sentence": "I make my bed."},
+        {"word": "chair", "syllables": "chair", "pos": "noun", "definition": "A seat for one person, with legs and a back.", "picture": "🪑", "sentence": "Sit in the chair."},
+        {"word": "kitchen", "syllables": "kitch·en", "pos": "noun", "definition": "The room where you cook food.", "picture": "🍳", "sentence": "I cook in the kitchen."},
+        {"word": "key", "syllables": "key", "pos": "noun", "definition": "A small metal tool that opens a lock.", "picture": "🔑", "sentence": "Where is my key?"},
+        {"word": "light", "syllables": "light", "pos": "noun", "definition": "Something that gives light, like a lamp.", "picture": "💡", "sentence": "Turn on the light."},
+        {"word": "sofa", "syllables": "so·fa", "pos": "noun", "definition": "A long, soft seat for two or more people.", "picture": "🛋️", "sentence": "We sit on the sofa."},
+        {"word": "shower", "syllables": "show·er", "pos": "noun", "definition": "Washing your body while water falls on you from above.", "picture": "🚿", "sentence": "The shower is warm."}
+      ]
+    },
+    {
+      "id": "transportation",
+      "name": "Getting Around",
+      "picture": "🚌",
+      "group": "Everyday words",
+      "words": [
+        {"word": "bus", "syllables": "bus", "pos": "noun", "definition": "A big vehicle that carries many people on a set route.", "picture": "🚌", "sentence": "I take the bus to the store."},
+        {"word": "car", "syllables": "car", "pos": "noun", "definition": "A vehicle with four wheels that people drive.", "picture": "🚗", "sentence": "My son has a car."},
+        {"word": "taxi", "syllables": "tax·i", "pos": "noun", "definition": "A car with a driver that you pay to take you somewhere.", "picture": "🚕", "sentence": "The taxi is yellow."},
+        {"word": "train", "syllables": "train", "pos": "noun", "definition": "A line of railroad cars that travels on tracks.", "picture": "🚆", "sentence": "The train is fast."},
+        {"word": "bus stop", "syllables": "bus stop", "pos": "noun", "definition": "A place where a bus stops so people can get on or off.", "picture": "🚏", "sentence": "I wait at the bus stop."},
+        {"word": "ticket", "syllables": "tick·et", "pos": "noun", "definition": "A paper that shows you paid to ride or to go in.", "picture": "🎫", "sentence": "I need a ticket."},
+        {"word": "walk", "syllables": "walk", "pos": "verb", "definition": "To move on your feet, one step after the other.", "picture": "🚶🏾‍♀️", "sentence": "I walk to the library."},
+        {"word": "airplane", "syllables": "air·plane", "pos": "noun", "definition": "A machine with wings that flies in the sky.", "picture": "✈️", "sentence": "The airplane is in the sky."}
+      ]
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "picture": "💻",
+      "group": "Everyday words",
+      "words": [
+        {"word": "mouse", "syllables": "mouse", "pos": "noun", "definition": "A small device you move by hand to control a computer.", "picture": "🖱️", "sentence": "I move the mouse."},
+        {"word": "keyboard", "syllables": "key·board", "pos": "noun", "definition": "The set of keys you press to type.", "picture": "⌨️", "sentence": "I type on the keyboard."},
+        {"word": "screen", "syllables": "screen", "pos": "noun", "definition": "The flat part of a computer or TV where you see pictures and words.", "picture": "🖥️", "sentence": "Look at the screen."},
+        {"word": "email", "syllables": "e·mail", "pos": "noun", "definition": "A message you send from one computer or phone to another.", "picture": "📧", "sentence": "I send an email to my son."},
+        {"word": "click", "syllables": "click", "pos": "verb", "definition": "To press and let go of the mouse button.", "picture": "👆🏾", "sentence": "Click the big button."},
+        {"word": "password", "syllables": "pass·word", "pos": "noun", "definition": "Secret letters and numbers that let you into a computer or an account.", "picture": "🔒", "sentence": "Keep your password secret."},
+        {"word": "Internet", "syllables": "In·ter·net", "pos": "noun", "definition": "The network that connects computers all over the world.", "picture": "🌐", "sentence": "The Internet is slow today."},
+        {"word": "print", "syllables": "print", "pos": "verb", "definition": "To put words or pictures on paper with a machine.", "picture": "🖨️", "sentence": "I print the paper at the library."}
+      ]
+    },
+    {
+      "id": "v3-welcome",
+      "name": "Plans and Goals",
+      "picture": "🌱",
+      "group": "Ventures 3 · Welcome Unit",
+      "words": [
+        {"word": "because", "syllables": "be·cause", "pos": "conjunction", "definition": "For this reason. It tells why.", "picture": "➡️", "sentence": "I stay home because I am sick.", "abstract": true},
+        {"word": "for", "syllables": "for", "pos": "preposition", "definition": "Shows who gets something, or the reason: a gift for you.", "picture": "🎁", "sentence": "This coffee is for you.", "abstract": true},
+        {"word": "information", "syllables": "in·for·ma·tion", "pos": "noun", "definition": "Facts about something.", "picture": "ℹ️", "sentence": "The library has information about classes."},
+        {"word": "main", "syllables": "main", "pos": "adjective", "definition": "Most important.", "picture": "⭐", "sentence": "The main door is in the front.", "abstract": true},
+        {"word": "need", "syllables": "need", "pos": "verb", "definition": "To have to have something.", "picture": "🙏🏾", "sentence": "I need a new coat.", "abstract": true},
+        {"word": "owner", "syllables": "own·er", "pos": "noun", "definition": "The person something belongs to.", "picture": "🏪", "sentence": "The owner of the store is very kind."},
+        {"word": "reach", "syllables": "reach", "pos": "verb", "definition": "To get in touch with someone, for example by phone.", "picture": "📞", "sentence": "I tried to reach my son by phone."},
+        {"word": "restaurant", "syllables": "res·tau·rant", "pos": "noun", "definition": "A place where you buy a meal and eat it there.", "picture": "🍽️", "sentence": "We eat dinner at a restaurant."},
+        {"word": "test", "syllables": "test", "pos": "noun", "definition": "Questions that check what you know.", "picture": "📝", "sentence": "I have an English test on Friday."},
+        {"word": "apartment", "syllables": "a·part·ment", "pos": "noun", "definition": "A home with one or more rooms inside a bigger building.", "picture": "🏢", "sentence": "My apartment is on the second floor."},
+        {"word": "education", "syllables": "ed·u·ca·tion", "pos": "noun", "definition": "Teaching and learning, like at a school.", "picture": "🎓", "sentence": "Education helps you get a good job."},
+        {"word": "elementary", "syllables": "el·e·men·ta·ry", "pos": "adjective", "definition": "Simple and basic. An elementary school is for young children.", "picture": "🎒", "sentence": "My grandson goes to an elementary school."},
+        {"word": "expensive", "syllables": "ex·pen·sive", "pos": "adjective", "definition": "Costing a lot of money.", "picture": "💎", "sentence": "This coat is too expensive."},
+        {"word": "money", "syllables": "mon·ey", "pos": "noun", "definition": "Coins and bills you use to buy things.", "picture": "💵", "sentence": "I keep my money in the bank."},
+        {"word": "next", "syllables": "next", "pos": "adjective", "definition": "Coming right after this one.", "picture": "⏭️", "sentence": "The next bus comes at ten.", "abstract": true},
+        {"word": "plan", "syllables": "plan", "pos": "noun", "definition": "An idea of what you will do later and how you will do it.", "picture": "🗓️", "sentence": "My plan is to learn English."},
+        {"word": "save", "syllables": "save", "pos": "verb", "definition": "To keep money so you can use it later.", "picture": "💰", "sentence": "I save money every month."},
+        {"word": "before", "syllables": "be·fore", "pos": "adverb", "definition": "At an earlier time.", "picture": "⏮️", "sentence": "I have seen this movie before.", "abstract": true},
+        {"word": "future", "syllables": "fu·ture", "pos": "noun", "definition": "The time that will come later.", "picture": "🌅", "sentence": "In the future, I want to travel."},
+        {"word": "soon", "syllables": "soon", "pos": "adverb", "definition": "In a short time; not long from now.", "picture": "⏳", "sentence": "The bus will come soon.", "abstract": true}
+      ]
+    },
+    {
+      "id": "v3-personality",
+      "name": "Personality",
+      "picture": "🌈",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "different", "syllables": "dif·fer·ent", "pos": "adjective", "definition": "Not the same.", "picture": "🔀", "sentence": "My two sisters are very different.", "abstract": true},
+        {"word": "friendly", "syllables": "friend·ly", "pos": "adjective", "definition": "Kind and nice to other people.", "picture": "😊", "sentence": "Our neighbor is very friendly."},
+        {"word": "outgoing", "syllables": "out·go·ing", "pos": "adjective", "definition": "Friendly and happy to talk with new people.", "picture": "🙋🏾‍♀️", "sentence": "She is outgoing and talks to everyone."},
+        {"word": "quiet", "syllables": "qui·et", "pos": "adjective", "definition": "Making little or no noise; not talking much.", "picture": "🤫", "sentence": "He is a quiet man."},
+        {"word": "shy", "syllables": "shy", "pos": "adjective", "definition": "Nervous and uncomfortable around people you do not know.", "picture": "🙈", "sentence": "My son is shy at school."},
+        {"word": "party animal", "syllables": "par·ty an·i·mal", "pos": "noun", "definition": "A person who loves to go to parties often.", "picture": "🥳", "sentence": "My cousin is a party animal."},
+        {"word": "creative", "syllables": "cre·a·tive", "pos": "adjective", "definition": "Good at making new and interesting things.", "picture": "✨", "sentence": "She is creative. She makes her own clothes."},
+        {"word": "artistic", "syllables": "ar·tis·tic", "pos": "adjective", "definition": "Good at art, like painting, music, or dance.", "picture": "🎨", "sentence": "My daughter is very artistic."},
+        {"word": "hard-working", "syllables": "hard-work·ing", "pos": "adjective", "definition": "Working with a lot of effort.", "picture": "💪🏾", "sentence": "My father is hard-working."},
+        {"word": "helpful", "syllables": "help·ful", "pos": "adjective", "definition": "Ready to help; useful.", "picture": "🛠️", "sentence": "The librarian is very helpful."},
+        {"word": "honest", "syllables": "hon·est", "pos": "adjective", "definition": "Telling the truth.", "picture": "✅", "sentence": "An honest person tells the truth.", "abstract": true},
+        {"word": "patient", "syllables": "pa·tient", "pos": "adjective", "definition": "Calm when you wait or when things are hard.", "picture": "🧘🏾‍♀️", "sentence": "A good teacher is patient."},
+        {"word": "reliable", "syllables": "re·li·a·ble", "pos": "adjective", "definition": "You can trust this person or thing to do what you need.", "picture": "⚓", "sentence": "My car is old, but it is reliable.", "abstract": true},
+        {"word": "intellectual", "syllables": "in·tel·lec·tu·al", "pos": "adjective", "definition": "Liking to think, read, and learn about ideas.", "picture": "📚", "sentence": "He is intellectual. He reads every day."},
+        {"word": "intelligent", "syllables": "in·tel·li·gent", "pos": "adjective", "definition": "Smart; able to learn and understand well.", "picture": "🧠", "sentence": "She is very intelligent."},
+        {"word": "kind", "syllables": "kind", "pos": "adjective", "definition": "Nice, caring, and helpful to others. (Also a noun: a type, as in what kind of music.)", "picture": "💗", "sentence": "The nurse is kind to everyone."},
+        {"word": "gentle", "syllables": "gen·tle", "pos": "adjective", "definition": "Soft, calm, and careful; not rough.", "picture": "🕊️", "sentence": "She is gentle with the baby."},
+        {"word": "warm", "syllables": "warm", "pos": "adjective", "definition": "Friendly and loving.", "picture": "🤗", "sentence": "My aunt is a warm person."},
+        {"word": "active", "syllables": "ac·tive", "pos": "adjective", "definition": "Moving and doing many things.", "picture": "🏃🏾‍♀️", "sentence": "My grandmother is very active."},
+        {"word": "personality", "syllables": "per·son·al·i·ty", "pos": "noun", "definition": "The way a person usually thinks, feels, and acts.", "picture": "🎭", "sentence": "He has a happy personality."}
+      ]
+    },
+    {
+      "id": "v3-describing",
+      "name": "Describing People",
+      "picture": "🧑🏾",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "alone", "syllables": "a·lone", "pos": "adjective", "definition": "Without other people.", "picture": "🧍🏾‍♀️", "sentence": "She likes to be alone on Sunday."},
+        {"word": "tired", "syllables": "tired", "pos": "adjective", "definition": "Needing rest or sleep.", "picture": "😴", "sentence": "I am tired after work."},
+        {"word": "tall", "syllables": "tall", "pos": "adjective", "definition": "Higher than most people or things.", "picture": "🦒", "sentence": "My son is tall."},
+        {"word": "young", "syllables": "young", "pos": "adjective", "definition": "Not old; in the early part of life.", "picture": "🧒🏾", "sentence": "My cousin is young."},
+        {"word": "single", "syllables": "sin·gle", "pos": "adjective", "definition": "Not married.", "picture": "🙋🏾‍♂️", "sentence": "My brother is single."},
+        {"word": "divorced", "syllables": "di·vorced", "pos": "adjective", "definition": "No longer married.", "picture": "💔", "sentence": "She is divorced."},
+        {"word": "nonsmoker", "syllables": "non·smok·er", "pos": "noun", "definition": "A person who does not smoke.", "picture": "🚭", "sentence": "I am a nonsmoker."},
+        {"word": "salt-and-pepper hair", "syllables": "salt-and-pep·per hair", "pos": "noun", "definition": "Hair that is part gray or white and part dark.", "picture": "🧂", "sentence": "My father has salt-and-pepper hair."},
+        {"word": "good-looking", "syllables": "good-look·ing", "pos": "adjective", "definition": "Nice to look at; attractive.", "picture": "😎", "sentence": "Her husband is good-looking."},
+        {"word": "highly-trained", "syllables": "high·ly-trained", "pos": "adjective", "definition": "Very well taught and skilled at a job.", "picture": "🏅", "sentence": "The nurses are highly-trained."},
+        {"word": "girlfriend", "syllables": "girl·friend", "pos": "noun", "definition": "A woman someone is dating; also, a female friend.", "picture": "💑", "sentence": "His girlfriend is a nurse."},
+        {"word": "heart", "syllables": "heart", "pos": "noun", "definition": "The part of the body that pumps blood; also, the place of your feelings.", "picture": "❤️", "sentence": "She has a kind heart."},
+        {"word": "perfect", "syllables": "per·fect", "pos": "adjective", "definition": "With no mistakes; as good as it can be.", "picture": "💯", "sentence": "Your answer is perfect."},
+        {"word": "everybody", "syllables": "ev·ery·bod·y", "pos": "pronoun", "definition": "Every person; all people.", "picture": "🙌🏾", "sentence": "Everybody in my class is friendly."}
+      ]
+    },
+    {
+      "id": "v3-likes",
+      "name": "Likes and Dislikes",
+      "picture": "👍🏾",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "like", "syllables": "like", "pos": "verb", "definition": "To enjoy something or think it is nice.", "picture": "👍🏾", "sentence": "I like hot tea."},
+        {"word": "dislike", "syllables": "dis·like", "pos": "verb", "definition": "To not like something.", "picture": "👎🏾", "sentence": "I dislike cold weather."},
+        {"word": "enjoy", "syllables": "en·joy", "pos": "verb", "definition": "To like doing something and have a good time.", "picture": "😄", "sentence": "We enjoy dinner together."},
+        {"word": "love", "syllables": "love", "pos": "verb", "definition": "To like something very much; to care deeply for someone.", "picture": "😍", "sentence": "I love my grandchildren."},
+        {"word": "hate", "syllables": "hate", "pos": "verb", "definition": "To dislike something very much.", "picture": "😖", "sentence": "I hate waiting in line."},
+        {"word": "mind", "syllables": "mind", "pos": "verb", "definition": "To be bothered by something. I don't mind means it is OK with me.", "picture": "🤷🏾‍♀️", "sentence": "I don't mind cooking.", "abstract": true},
+        {"word": "more than", "syllables": "more than", "pos": "phrase", "definition": "A bigger amount. We use it to compare two things.", "picture": "⬆️", "sentence": "I like tea more than coffee.", "abstract": true},
+        {"word": "less than", "syllables": "less than", "pos": "phrase", "definition": "A smaller amount. We use it to compare two things.", "picture": "⬇️", "sentence": "I like rice less than bread.", "abstract": true},
+        {"word": "as much as", "syllables": "as much as", "pos": "phrase", "definition": "The same amount. We use it to say two things are equal.", "picture": "↔️", "sentence": "I like music as much as movies.", "abstract": true},
+        {"word": "interesting", "syllables": "in·ter·est·ing", "pos": "adjective", "definition": "Making you want to know more.", "picture": "🤩", "sentence": "This book is interesting."},
+        {"word": "common", "syllables": "com·mon", "pos": "adjective", "definition": "Happening often, or shared by many people.", "picture": "🔁", "sentence": "Rice is a common food.", "abstract": true},
+        {"word": "new", "syllables": "new", "pos": "adjective", "definition": "Just made or bought; not old.", "picture": "🆕", "sentence": "I have a new phone."}
+      ]
+    },
+    {
+      "id": "v3-freetime",
+      "name": "Free Time",
+      "picture": "🎾",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "weekend", "syllables": "week·end", "pos": "noun", "definition": "Saturday and Sunday.", "picture": "📅", "sentence": "What do you do on the weekend?"},
+        {"word": "go out", "syllables": "go out", "pos": "verb", "definition": "To leave home to have fun with other people.", "picture": "🌃", "sentence": "We go out on Friday night."},
+        {"word": "dance club", "syllables": "dance club", "pos": "noun", "definition": "A place where people go at night to dance.", "picture": "🕺🏾", "sentence": "They go to a dance club on Saturday."},
+        {"word": "dance", "syllables": "dance", "pos": "verb", "definition": "To move your body to music.", "picture": "💃🏾", "sentence": "I dance at weddings."},
+        {"word": "exercise", "syllables": "ex·er·cise", "pos": "noun", "definition": "Moving your body to stay healthy and strong.", "picture": "🤸🏾", "sentence": "Exercise is good for your heart."},
+        {"word": "work out", "syllables": "work out", "pos": "verb", "definition": "To exercise to make your body strong.", "picture": "🏋🏾", "sentence": "I work out three days a week."},
+        {"word": "jog", "syllables": "jog", "pos": "verb", "definition": "To run slowly for exercise.", "picture": "🏃🏾", "sentence": "I jog in the park."},
+        {"word": "walk", "syllables": "walk", "pos": "verb", "definition": "To move on your feet, one step after the other.", "picture": "🚶🏾‍♀️", "sentence": "I walk with my friend every morning."},
+        {"word": "sports", "syllables": "sports", "pos": "noun", "definition": "Games like soccer and basketball that use your body.", "picture": "⚽", "sentence": "My son plays sports."},
+        {"word": "tennis", "syllables": "ten·nis", "pos": "noun", "definition": "A game where players hit a ball over a net with a racket.", "picture": "🎾", "sentence": "She plays tennis on Saturday."},
+        {"word": "gym", "syllables": "gym", "pos": "noun", "definition": "A place where people go to exercise.", "picture": "🏋🏾‍♀️", "sentence": "The gym opens at six."},
+        {"word": "camping", "syllables": "camp·ing", "pos": "noun", "definition": "Sleeping outside in a tent for fun.", "picture": "⛺", "sentence": "We go camping in the summer."},
+        {"word": "outdoors", "syllables": "out·doors", "pos": "adverb", "definition": "Outside, not in a building.", "picture": "🌳", "sentence": "I like to eat outdoors."},
+        {"word": "beach", "syllables": "beach", "pos": "noun", "definition": "The sandy land next to the ocean or a lake.", "picture": "🏖️", "sentence": "We walk on the beach."},
+        {"word": "ocean", "syllables": "o·cean", "pos": "noun", "definition": "The very large body of salt water on the earth.", "picture": "🌊", "sentence": "The ocean is blue."},
+        {"word": "trip", "syllables": "trip", "pos": "noun", "definition": "Going to a place and coming back.", "picture": "🧳", "sentence": "We took a trip to the ocean."},
+        {"word": "motorcycle", "syllables": "mo·tor·cy·cle", "pos": "noun", "definition": "A machine with two wheels and an engine.", "picture": "🏍️", "sentence": "He rides a motorcycle."},
+        {"word": "garden", "syllables": "gar·den", "pos": "noun", "definition": "A place where people grow flowers or vegetables.", "picture": "🌻", "sentence": "I grow tomatoes in my garden."},
+        {"word": "bird", "syllables": "bird", "pos": "noun", "definition": "An animal with feathers and wings. Most birds can fly.", "picture": "🐦", "sentence": "A bird is singing outside."},
+        {"word": "free", "syllables": "free", "pos": "adjective", "definition": "Costing no money; also, not busy.", "picture": "🆓", "sentence": "The concert is free."},
+        {"word": "spend time", "syllables": "spend time", "pos": "verb", "definition": "To use your time doing something or being with someone.", "picture": "⏰", "sentence": "I spend time with my family."}
+      ]
+    },
+    {
+      "id": "v3-media",
+      "name": "Music, Movies, and Media",
+      "picture": "🎸",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "concert", "syllables": "con·cert", "pos": "noun", "definition": "A show where people play music for others.", "picture": "🎤", "sentence": "We went to a concert in the park."},
+        {"word": "music", "syllables": "mu·sic", "pos": "noun", "definition": "Sounds from voices or instruments that are nice to hear.", "picture": "🎵", "sentence": "I listen to music in the car."},
+        {"word": "instrument", "syllables": "in·stru·ment", "pos": "noun", "definition": "A thing you play to make music, like a guitar or a piano.", "picture": "🎹", "sentence": "What instrument do you play?"},
+        {"word": "guitar", "syllables": "gui·tar", "pos": "noun", "definition": "An instrument with strings that you play with your fingers.", "picture": "🎸", "sentence": "He plays the guitar."},
+        {"word": "sing", "syllables": "sing", "pos": "verb", "definition": "To make music with your voice.", "picture": "🎙️", "sentence": "I sing in the kitchen."},
+        {"word": "paint", "syllables": "paint", "pos": "verb", "definition": "To make a picture with paint, or to put color on something.", "picture": "🖌️", "sentence": "She paints flowers."},
+        {"word": "picture", "syllables": "pic·ture", "pos": "noun", "definition": "A drawing, a painting, or a photo.", "picture": "🖼️", "sentence": "I have a picture of my family."},
+        {"word": "movie", "syllables": "mov·ie", "pos": "noun", "definition": "A story you watch on a screen.", "picture": "🎬", "sentence": "We watch a movie on Friday."},
+        {"word": "magazine", "syllables": "mag·a·zine", "pos": "noun", "definition": "A thin book with stories and pictures that comes out every week or month.", "picture": "📰", "sentence": "I read a magazine at the library."},
+        {"word": "read", "syllables": "read", "pos": "verb", "definition": "To look at written words and understand them.", "picture": "📖", "sentence": "I read a story every night."},
+        {"word": "listen", "syllables": "lis·ten", "pos": "verb", "definition": "To pay attention to sounds or to what someone says.", "picture": "👂🏾", "sentence": "Please listen to the teacher."},
+        {"word": "watch", "syllables": "watch", "pos": "verb", "definition": "To look at something for a time.", "picture": "📺", "sentence": "We watch TV after dinner."},
+        {"word": "phone", "syllables": "phone", "pos": "noun", "definition": "A device you use to call or text people.", "picture": "📱", "sentence": "My phone is in my purse."},
+        {"word": "Internet", "syllables": "In·ter·net", "pos": "noun", "definition": "The network that connects computers all over the world.", "picture": "🌐", "sentence": "I use the Internet to read the news."},
+        {"word": "online", "syllables": "on·line", "pos": "adjective", "definition": "Connected to the Internet, or done on the Internet.", "picture": "💻", "sentence": "I pay my bills online."},
+        {"word": "Web page", "syllables": "Web page", "pos": "noun", "definition": "One page of information on the Internet.", "picture": "🖥️", "sentence": "The library has a Web page."},
+        {"word": "text", "syllables": "text", "pos": "noun", "definition": "A short message sent from one phone to another; also, written words.", "picture": "💬", "sentence": "My son sent me a text."}
+      ]
+    },
+    {
+      "id": "v3-people",
+      "name": "People Together",
+      "picture": "🤝🏾",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "socialize", "syllables": "so·cial·ize", "pos": "verb", "definition": "To spend time talking and having fun with other people.", "picture": "☕", "sentence": "I socialize with my neighbors."},
+        {"word": "activity", "syllables": "ac·tiv·i·ty", "pos": "noun", "definition": "Something you do, often for fun.", "picture": "🧩", "sentence": "Cooking is my favorite activity."},
+        {"word": "group", "syllables": "group", "pos": "noun", "definition": "A number of people or things together.", "picture": "👥", "sentence": "Our group meets on Monday."},
+        {"word": "together", "syllables": "to·geth·er", "pos": "adverb", "definition": "With each other; in one place.", "picture": "👫🏾", "sentence": "We eat lunch together."},
+        {"word": "meet", "syllables": "meet", "pos": "verb", "definition": "To see and talk with someone, often for the first time.", "picture": "🤝🏾", "sentence": "Nice to meet you."},
+        {"word": "meeting", "syllables": "meet·ing", "pos": "noun", "definition": "A time when people come together to talk about something.", "picture": "📋", "sentence": "We have a meeting on Monday."},
+        {"word": "share", "syllables": "share", "pos": "verb", "definition": "To give part of something to others, or to use it together.", "picture": "🍕", "sentence": "I share my lunch with my friend."},
+        {"word": "seek", "syllables": "seek", "pos": "verb", "definition": "To look for; to try to find.", "picture": "🔍", "sentence": "He is seeking a new job."},
+        {"word": "help", "syllables": "help", "pos": "verb", "definition": "To make something easier for someone.", "picture": "🆘", "sentence": "Can you help me, please?"},
+        {"word": "advice", "syllables": "ad·vice", "pos": "noun", "definition": "An idea from someone about what you should do.", "picture": "🗨️", "sentence": "My mother gives good advice."},
+        {"word": "problem", "syllables": "prob·lem", "pos": "noun", "definition": "Something that is hard and needs to be fixed.", "picture": "❓", "sentence": "My car has a problem."},
+        {"word": "depend", "syllables": "de·pend", "pos": "verb", "definition": "To need someone or something; also, to change because of something else.", "picture": "🔗", "sentence": "Children depend on their parents.", "abstract": true},
+        {"word": "fit", "syllables": "fit", "pos": "verb", "definition": "To be the right size, or to be right for someone.", "picture": "👗", "sentence": "This dress fits me."},
+        {"word": "way", "syllables": "way", "pos": "noun", "definition": "How you do something; also, a road or path.", "picture": "🛤️", "sentence": "This is the best way to learn.", "abstract": true}
+      ]
+    },
+    {
+      "id": "v3-chores",
+      "name": "Home and Daily Chores",
+      "picture": "🧹",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "car", "syllables": "car", "pos": "noun", "definition": "A vehicle with four wheels that people drive.", "picture": "🚗", "sentence": "I drive my car to work."},
+        {"word": "bill", "syllables": "bill", "pos": "noun", "definition": "A paper that tells you how much money you owe.", "picture": "📨", "sentence": "I pay the phone bill every month."},
+        {"word": "pay", "syllables": "pay", "pos": "verb", "definition": "To give money for something.", "picture": "💳", "sentence": "I pay for the groceries."},
+        {"word": "clothes", "syllables": "clothes", "pos": "noun", "definition": "Things you wear, like shirts and pants.", "picture": "👕", "sentence": "I wash my clothes on Saturday."},
+        {"word": "homework", "syllables": "home·work", "pos": "noun", "definition": "Schoolwork that you do at home.", "picture": "📓", "sentence": "I do my homework after dinner."},
+        {"word": "shop", "syllables": "shop", "pos": "verb", "definition": "To go to stores to buy things.", "picture": "🛍️", "sentence": "I shop for food on Monday."},
+        {"word": "clean", "syllables": "clean", "pos": "verb", "definition": "To take away dirt so something is not dirty.", "picture": "🧽", "sentence": "I clean the kitchen every day."},
+        {"word": "garbage", "syllables": "gar·bage", "pos": "noun", "definition": "Things you throw away, like old food and paper.", "picture": "🗑️", "sentence": "The garbage is full."},
+        {"word": "house", "syllables": "house", "pos": "noun", "definition": "A building where a family lives.", "picture": "🏠", "sentence": "My house has three rooms."},
+        {"word": "take out", "syllables": "take out", "pos": "verb", "definition": "To carry something outside, like the garbage.", "picture": "🚮", "sentence": "I take out the garbage on Tuesday."},
+        {"word": "line", "syllables": "line", "pos": "noun", "definition": "A row of people waiting, one after the other.", "picture": "🧍🏾", "sentence": "We wait in line at the bank."},
+        {"word": "stand", "syllables": "stand", "pos": "verb", "definition": "To be on your feet.", "picture": "🦵🏾", "sentence": "I stand at the bus stop."},
+        {"word": "dish", "syllables": "dish", "pos": "noun", "definition": "A plate or bowl; also, food made in a certain way.", "picture": "🍲", "sentence": "Please wash the dishes."},
+        {"word": "wash", "syllables": "wash", "pos": "verb", "definition": "To clean something with water and soap.", "picture": "🧼", "sentence": "I wash my hands."},
+        {"word": "cook", "syllables": "cook", "pos": "verb", "definition": "To make food hot so you can eat it.", "picture": "🧑🏾‍🍳", "sentence": "I cook dinner for my family."},
+        {"word": "eat", "syllables": "eat", "pos": "verb", "definition": "To put food in your mouth and swallow it.", "picture": "😋", "sentence": "We eat at seven."},
+        {"word": "school", "syllables": "school", "pos": "noun", "definition": "A place where people go to learn.", "picture": "🏫", "sentence": "My school is near the library."},
+        {"word": "learn", "syllables": "learn", "pos": "verb", "definition": "To get new knowledge or a new skill.", "picture": "✏️", "sentence": "I learn new words every day."},
+        {"word": "language", "syllables": "lan·guage", "pos": "noun", "definition": "The words people use to speak and write, like English.", "picture": "🗣️", "sentence": "English is a new language for me."},
+        {"word": "early", "syllables": "ear·ly", "pos": "adverb", "definition": "Before the usual time; near the start of the day.", "picture": "🌄", "sentence": "I get up early."},
+        {"word": "late", "syllables": "late", "pos": "adjective", "definition": "After the usual or expected time.", "picture": "🕙", "sentence": "The bus is late."},
+        {"word": "whole", "syllables": "whole", "pos": "adjective", "definition": "All of something; complete.", "picture": "🍕", "sentence": "We ate the whole pizza.", "abstract": true}
+      ]
+    },
+    {
+      "id": "v3-jobs",
+      "name": "Jobs and Careers",
+      "picture": "💼",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "career", "syllables": "ca·reer", "pos": "noun", "definition": "The kind of work you do for many years.", "picture": "💼", "sentence": "She has a long career as a nurse."},
+        {"word": "job", "syllables": "job", "pos": "noun", "definition": "Work that you do to earn money.", "picture": "🧑🏾‍🔧", "sentence": "I have a new job."},
+        {"word": "architect", "syllables": "ar·chi·tect", "pos": "noun", "definition": "A person who designs buildings.", "picture": "📐", "sentence": "The architect drew the new library."},
+        {"word": "artist", "syllables": "art·ist", "pos": "noun", "definition": "A person who makes art, like paintings or music.", "picture": "🎭", "sentence": "The artist paints the ocean."},
+        {"word": "computer programmer", "syllables": "com·put·er pro·gram·mer", "pos": "noun", "definition": "A person who writes instructions for computers.", "picture": "👩🏾‍💻", "sentence": "My son is a computer programmer."},
+        {"word": "counselor", "syllables": "coun·sel·or", "pos": "noun", "definition": "A person whose job is to listen and give advice.", "picture": "🧑🏾‍💼", "sentence": "The school counselor helps students."},
+        {"word": "dancer", "syllables": "danc·er", "pos": "noun", "definition": "A person who dances, often as a job.", "picture": "🩰", "sentence": "She was a dancer when she was young."},
+        {"word": "designer", "syllables": "de·sign·er", "pos": "noun", "definition": "A person who plans how things will look, like clothes or rooms.", "picture": "🧵", "sentence": "The designer makes beautiful dresses."},
+        {"word": "musician", "syllables": "mu·si·cian", "pos": "noun", "definition": "A person who plays music, often as a job.", "picture": "🎷", "sentence": "The musician plays every Friday."},
+        {"word": "nurse", "syllables": "nurse", "pos": "noun", "definition": "A person who cares for sick people, often in a hospital.", "picture": "🧑🏾‍⚕️", "sentence": "The nurse takes my temperature."},
+        {"word": "painter", "syllables": "paint·er", "pos": "noun", "definition": "An artist who paints pictures; also, a worker who paints walls.", "picture": "🧑🏾‍🎨", "sentence": "The painter uses many colors."},
+        {"word": "photographer", "syllables": "pho·tog·ra·pher", "pos": "noun", "definition": "A person who takes photos.", "picture": "📷", "sentence": "The photographer takes our picture."},
+        {"word": "scientist", "syllables": "sci·en·tist", "pos": "noun", "definition": "A person who studies the natural world, often in a lab.", "picture": "🔬", "sentence": "The scientist works in a lab."},
+        {"word": "social worker", "syllables": "so·cial work·er", "pos": "noun", "definition": "A person whose job is to help people and families with problems.", "picture": "🏘️", "sentence": "The social worker helps new families."},
+        {"word": "teacher", "syllables": "teach·er", "pos": "noun", "definition": "A person whose job is to help people learn.", "picture": "🧑🏾‍🏫", "sentence": "My teacher is patient."},
+        {"word": "writer", "syllables": "writ·er", "pos": "noun", "definition": "A person who writes stories, books, or articles.", "picture": "✍🏾", "sentence": "The writer has a new book."},
+        {"word": "hospital", "syllables": "hos·pi·tal", "pos": "noun", "definition": "A place where doctors and nurses care for sick and hurt people.", "picture": "🏥", "sentence": "My daughter works at the hospital."}
+      ]
+    },
+    {
+      "id": "v3-writing",
+      "name": "Reading and Writing Words",
+      "picture": "📝",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "example", "syllables": "ex·am·ple", "pos": "noun", "definition": "Something that shows what other things are like.", "picture": "🔎", "sentence": "Give me an example of a fruit.", "abstract": true},
+        {"word": "irregular verb", "syllables": "ir·reg·u·lar verb", "pos": "noun", "definition": "A verb that does not add -ed for the past, like go and went.", "picture": "🔀", "sentence": "Go is an irregular verb.", "abstract": true},
+        {"word": "statement", "syllables": "state·ment", "pos": "noun", "definition": "A sentence that tells something.", "picture": "📢", "sentence": "I like tea is a statement.", "abstract": true},
+        {"word": "negative", "syllables": "neg·a·tive", "pos": "adjective", "definition": "Saying no or not. I don't like tea is negative.", "picture": "➖", "sentence": "Make the sentence negative.", "abstract": true},
+        {"word": "gerund", "syllables": "ger·und", "pos": "noun", "definition": "A verb with -ing that works like a noun, like swimming in I like swimming.", "picture": "🏊🏾", "sentence": "Swimming is a gerund.", "abstract": true},
+        {"word": "comparison", "syllables": "com·par·i·son", "pos": "noun", "definition": "Looking at how two things are the same or different.", "picture": "⚖️", "sentence": "Make a comparison of two cities.", "abstract": true},
+        {"word": "adjective", "syllables": "ad·jec·tive", "pos": "noun", "definition": "A word that describes a person or thing, like tall or kind.", "picture": "🖍️", "sentence": "Tall is an adjective.", "abstract": true},
+        {"word": "definition", "syllables": "def·i·ni·tion", "pos": "noun", "definition": "Words that tell what a word means.", "picture": "📘", "sentence": "Read the definition of the word."},
+        {"word": "meaning", "syllables": "mean·ing", "pos": "noun", "definition": "What a word or sign tells you.", "picture": "🔤", "sentence": "What is the meaning of this word?", "abstract": true},
+        {"word": "sentence", "syllables": "sen·tence", "pos": "noun", "definition": "A group of words that tells a complete idea.", "picture": "📄", "sentence": "Write one sentence about your family."},
+        {"word": "paragraph", "syllables": "par·a·graph", "pos": "noun", "definition": "A group of sentences about one idea.", "picture": "📃", "sentence": "Read the first paragraph."},
+        {"word": "title", "syllables": "ti·tle", "pos": "noun", "definition": "The name of a book, a story, a song, or an article.", "picture": "🔖", "sentence": "What is the title of the book?"},
+        {"word": "article", "syllables": "ar·ti·cle", "pos": "noun", "definition": "A piece of writing in a newspaper or magazine. (In grammar, a, an, and the are articles.)", "picture": "🗞️", "sentence": "I read an article about food."},
+        {"word": "conclusion", "syllables": "con·clu·sion", "pos": "noun", "definition": "The last part, or ending, of a piece of writing.", "picture": "🏁", "sentence": "The conclusion is the last paragraph."}
+      ]
+    },
+    {
+      "id": "v3-thinking",
+      "name": "Thinking Words",
+      "picture": "🤔",
+      "group": "Ventures 3 · Unit 1",
+      "words": [
+        {"word": "think", "syllables": "think", "pos": "verb", "definition": "To use your mind; to have an idea or an opinion.", "picture": "🤔", "sentence": "I think it will rain."},
+        {"word": "think about", "syllables": "think about", "pos": "verb", "definition": "To have someone or something in your mind; to consider.", "picture": "💭", "sentence": "I think about my family every day."},
+        {"word": "feel", "syllables": "feel", "pos": "verb", "definition": "To have a feeling, like happy or tired; also, to touch.", "picture": "🙂", "sentence": "I feel happy today."},
+        {"word": "find", "syllables": "find", "pos": "verb", "definition": "To see or get something you were looking for.", "picture": "📍", "sentence": "I can't find my keys."},
+        {"word": "guess", "syllables": "guess", "pos": "verb", "definition": "To give an answer when you are not sure.", "picture": "❔", "sentence": "Can you guess my age?"},
+        {"word": "imagine", "syllables": "i·mag·ine", "pos": "verb", "definition": "To make a picture of something in your mind.", "picture": "💫", "sentence": "Imagine a day at the beach."},
+        {"word": "predict", "syllables": "pre·dict", "pos": "verb", "definition": "To say what will happen before it happens.", "picture": "🔮", "sentence": "I predict it will be sunny tomorrow."},
+        {"word": "probably", "syllables": "prob·a·bly", "pos": "adverb", "definition": "Very likely; almost sure.", "picture": "🤞🏾", "sentence": "It will probably rain today.", "abstract": true},
+        {"word": "describe", "syllables": "de·scribe", "pos": "verb", "definition": "To tell what someone or something is like.", "picture": "🖊️", "sentence": "Describe your house."},
+        {"word": "explain", "syllables": "ex·plain", "pos": "verb", "definition": "To make something clear and easy to understand.", "picture": "💡", "sentence": "The teacher explains the lesson."},
+        {"word": "include", "syllables": "in·clude", "pos": "verb", "definition": "To have something as one part of a group.", "picture": "➕", "sentence": "The price includes coffee.", "abstract": true},
+        {"word": "scan", "syllables": "scan", "pos": "verb", "definition": "To look at a page quickly to find something.", "picture": "👀", "sentence": "Scan the page for the date."},
+        {"word": "hard", "syllables": "hard", "pos": "adjective", "definition": "Not easy; difficult. Also, with a lot of effort, as in work hard.", "picture": "🧗🏾", "sentence": "This test is hard."}
+      ]
+    }
+  ],
+  "typing": {
+    "letters": "fjdkslaghrueiwotyvmcnbpxqz",
+    "sentences": [
+      "I like hot tea.",
+      "The bus is here.",
+      "I can type my name.",
+      "My son calls me.",
+      "I go to the library.",
+      "The store is open.",
+      "I drink coffee with milk.",
+      "Good morning to you.",
+      "I save money for the future.",
+      "My friend is kind and helpful.",
+      "I like music more than movies.",
+      "We spend time together on the weekend."
+    ]
+  }
+}

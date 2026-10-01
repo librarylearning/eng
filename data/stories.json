@@ -1,0 +1,1330 @@
+{
+  "_help": "Story Corner data. Each story has: id (small letters, no spaces), group (the heading it is listed under), title, picture (emoji), sentences (short sentences), and questions. A 'choice' question has options (text + picture) and answer = the number of the right option, counting from 0. A 'yesno' question has answer true (yes) or false (no). 'explain' is said after a right answer.",
+  "stories": [
+    {
+      "id": "coffee-morning",
+      "group": "Everyday stories",
+      "title": "Coffee in the Morning",
+      "picture": "☕",
+      "sentences": [
+        "Every morning, Hana makes coffee.",
+        "She roasts the beans in a small pan.",
+        "The kitchen smells warm and sweet.",
+        "Her son and daughter sit at the table.",
+        "They drink coffee and talk together."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Hana make?",
+          "options": [
+            {
+              "text": "coffee",
+              "picture": "☕"
+            },
+            {
+              "text": "bread",
+              "picture": "🍞"
+            },
+            {
+              "text": "soup",
+              "picture": "🍲"
+            }
+          ],
+          "answer": 0,
+          "explain": "Hana makes coffee."
+        },
+        {
+          "type": "yesno",
+          "question": "Does the family drink coffee together?",
+          "answer": true,
+          "explain": "They drink coffee and talk together."
+        },
+        {
+          "type": "choice",
+          "question": "Where does the family sit?",
+          "options": [
+            {
+              "text": "in the car",
+              "picture": "🚗"
+            },
+            {
+              "text": "at the table",
+              "picture": "🍽️"
+            },
+            {
+              "text": "on the bus",
+              "picture": "🚌"
+            }
+          ],
+          "answer": 1,
+          "explain": "They sit at the table."
+        }
+      ]
+    },
+    {
+      "id": "library-day",
+      "group": "Everyday stories",
+      "title": "A Day at the Library",
+      "picture": "📚",
+      "sentences": [
+        "Ruth walks to the library on Tuesday.",
+        "She brings her library card.",
+        "The librarian smiles and says hello.",
+        "Ruth finds a book with big pictures.",
+        "She takes the book home."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Where does Ruth go?",
+          "options": [
+            {
+              "text": "the hospital",
+              "picture": "🏥"
+            },
+            {
+              "text": "the store",
+              "picture": "🛒"
+            },
+            {
+              "text": "the library",
+              "picture": "📚"
+            }
+          ],
+          "answer": 2,
+          "explain": "Ruth goes to the library."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Ruth take a cake home?",
+          "answer": false,
+          "explain": "No. She takes a book home."
+        },
+        {
+          "type": "choice",
+          "question": "What does Ruth bring?",
+          "options": [
+            {
+              "text": "her library card",
+              "picture": "🪪"
+            },
+            {
+              "text": "an umbrella",
+              "picture": "☂️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She brings her library card."
+        }
+      ]
+    },
+    {
+      "id": "number-nine-bus",
+      "group": "Everyday stories",
+      "title": "The Number 9 Bus",
+      "picture": "🚌",
+      "sentences": [
+        "Mary waits at the bus stop.",
+        "The number 9 bus comes at ten o'clock.",
+        "She shows her bus pass to the driver.",
+        "She sits by the window.",
+        "She gets off at the market."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What number is the bus?",
+          "options": [
+            {
+              "text": "three",
+              "picture": "3️⃣"
+            },
+            {
+              "text": "nine",
+              "picture": "9️⃣"
+            },
+            {
+              "text": "five",
+              "picture": "5️⃣"
+            }
+          ],
+          "answer": 1,
+          "explain": "It is the number 9 bus."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Mary sit by the window?",
+          "answer": true,
+          "explain": "Yes. She sits by the window."
+        },
+        {
+          "type": "choice",
+          "question": "Where does Mary get off?",
+          "options": [
+            {
+              "text": "at the market",
+              "picture": "🛒"
+            },
+            {
+              "text": "at home",
+              "picture": "🏠"
+            },
+            {
+              "text": "at the bank",
+              "picture": "🏦"
+            }
+          ],
+          "answer": 0,
+          "explain": "She gets off at the market."
+        }
+      ]
+    },
+    {
+      "id": "doctor-visit",
+      "group": "Everyday stories",
+      "title": "A Visit to the Doctor",
+      "picture": "🩺",
+      "sentences": [
+        "Sara has a pain in her back.",
+        "She calls the doctor's office.",
+        "The nurse gives her a time on Monday.",
+        "The doctor listens and helps her.",
+        "Sara feels better at home."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Who does Sara call?",
+          "options": [
+            {
+              "text": "a taxi",
+              "picture": "🚕"
+            },
+            {
+              "text": "the doctor's office",
+              "picture": "🩺"
+            },
+            {
+              "text": "a restaurant",
+              "picture": "🍽️"
+            }
+          ],
+          "answer": 1,
+          "explain": "She calls the doctor's office."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Sara feel better?",
+          "answer": true,
+          "explain": "Yes. Sara feels better at home."
+        },
+        {
+          "type": "choice",
+          "question": "Who listens and helps her?",
+          "options": [
+            {
+              "text": "the doctor",
+              "picture": "👩🏾‍⚕️"
+            },
+            {
+              "text": "a cook",
+              "picture": "🧑🏾‍🍳"
+            }
+          ],
+          "answer": 0,
+          "explain": "The doctor listens and helps her."
+        }
+      ]
+    },
+    {
+      "id": "call-from-sam",
+      "group": "Everyday stories",
+      "title": "A Call from Sam",
+      "picture": "📱",
+      "sentences": [
+        "The phone rings in the kitchen.",
+        "It is her grandson, Sam.",
+        "Sam says, \"Hello, Grandma!\"",
+        "She says, \"Hello, Sam. How are you?\"",
+        "Sam is happy, and they talk for a long time."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Who calls on the phone?",
+          "options": [
+            {
+              "text": "her grandson",
+              "picture": "👦🏾"
+            },
+            {
+              "text": "the doctor",
+              "picture": "👩🏾‍⚕️"
+            },
+            {
+              "text": "the bank",
+              "picture": "🏦"
+            }
+          ],
+          "answer": 0,
+          "explain": "Her grandson Sam calls."
+        },
+        {
+          "type": "yesno",
+          "question": "Is Sam sad?",
+          "answer": false,
+          "explain": "No. Sam is happy."
+        },
+        {
+          "type": "choice",
+          "question": "Where does the phone ring?",
+          "options": [
+            {
+              "text": "in the car",
+              "picture": "🚗"
+            },
+            {
+              "text": "in the kitchen",
+              "picture": "🍳"
+            }
+          ],
+          "answer": 1,
+          "explain": "The phone rings in the kitchen."
+        }
+      ]
+    },
+    {
+      "id": "shopping-dinner",
+      "group": "Everyday stories",
+      "title": "Shopping for Dinner",
+      "picture": "🛒",
+      "sentences": [
+        "Lena goes to the store.",
+        "She needs onions, rice, and eggs.",
+        "She puts them in her basket.",
+        "The total is twelve dollars.",
+        "She pays and says thank you."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Lena need?",
+          "options": [
+            {
+              "text": "onions",
+              "picture": "🧅"
+            },
+            {
+              "text": "cake",
+              "picture": "🍰"
+            },
+            {
+              "text": "fish",
+              "picture": "🐟"
+            }
+          ],
+          "answer": 0,
+          "explain": "She needs onions, rice, and eggs."
+        },
+        {
+          "type": "choice",
+          "question": "How much is the total?",
+          "options": [
+            {
+              "text": "two dollars",
+              "picture": "💵"
+            },
+            {
+              "text": "twelve dollars",
+              "picture": "💰"
+            }
+          ],
+          "answer": 1,
+          "explain": "The total is twelve dollars."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Lena say thank you?",
+          "answer": true,
+          "explain": "Yes. She pays and says thank you."
+        }
+      ]
+    },
+    {
+      "id": "v3-plans",
+      "group": "Ventures 3 · Welcome Unit",
+      "title": "Plans for the Future",
+      "picture": "🌅",
+      "sentences": [
+        "Lena has a plan for the future.",
+        "She wants to open a restaurant because she loves to cook.",
+        "First, she needs more education, so she takes a class at the library.",
+        "Next month, she has a big test.",
+        "She saves money every week, because a restaurant is expensive.",
+        "Soon, she will be the owner of her own restaurant."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Lena want to open?",
+          "options": [
+            {
+              "text": "a restaurant",
+              "picture": "🍽️"
+            },
+            {
+              "text": "a bank",
+              "picture": "🏦"
+            },
+            {
+              "text": "a gym",
+              "picture": "🏋🏾‍♀️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She wants to open a restaurant."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Lena save money every week?",
+          "answer": true,
+          "explain": "Yes. She saves money every week."
+        },
+        {
+          "type": "choice",
+          "question": "When is her big test?",
+          "options": [
+            {
+              "text": "next month",
+              "picture": "📅"
+            },
+            {
+              "text": "yesterday",
+              "picture": "⏮️"
+            }
+          ],
+          "answer": 0,
+          "explain": "Her big test is next month."
+        }
+      ]
+    },
+    {
+      "id": "v3-apartment",
+      "group": "Ventures 3 · Welcome Unit",
+      "title": "A New Apartment",
+      "picture": "🏢",
+      "sentences": [
+        "Mr. Diaz needs a new apartment.",
+        "He reads the information on a sign in front of a building.",
+        "The main door is next to an elementary school.",
+        "He calls the owner, but he cannot reach her.",
+        "Before he goes home, he leaves a message with his phone number.",
+        "The apartment is not expensive, so he is happy."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Mr. Diaz need?",
+          "options": [
+            {
+              "text": "an apartment",
+              "picture": "🏢"
+            },
+            {
+              "text": "a car",
+              "picture": "🚗"
+            },
+            {
+              "text": "a job",
+              "picture": "💼"
+            }
+          ],
+          "answer": 0,
+          "explain": "He needs a new apartment."
+        },
+        {
+          "type": "yesno",
+          "question": "Is the apartment expensive?",
+          "answer": false,
+          "explain": "No. The apartment is not expensive."
+        },
+        {
+          "type": "choice",
+          "question": "What is next to the main door?",
+          "options": [
+            {
+              "text": "an elementary school",
+              "picture": "🎒"
+            },
+            {
+              "text": "a hospital",
+              "picture": "🏥"
+            }
+          ],
+          "answer": 0,
+          "explain": "The main door is next to an elementary school."
+        }
+      ]
+    },
+    {
+      "id": "v3-friends",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Two Different Friends",
+      "picture": "👭🏾",
+      "sentences": [
+        "Rosa and Lily are good friends, but they are very different.",
+        "Rosa is outgoing and friendly, and she is a real party animal.",
+        "Lily is quiet and shy, and she likes to be alone.",
+        "Rosa goes out every weekend to a dance club.",
+        "Lily is tired on the weekend, so she stays home and reads.",
+        "They have different personalities, but they enjoy their time together."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Who is a party animal?",
+          "options": [
+            {
+              "text": "Rosa",
+              "picture": "🥳"
+            },
+            {
+              "text": "Lily",
+              "picture": "🤫"
+            }
+          ],
+          "answer": 0,
+          "explain": "Rosa is a party animal."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Lily like to be alone?",
+          "answer": true,
+          "explain": "Yes. Lily likes to be alone."
+        },
+        {
+          "type": "choice",
+          "question": "Where does Rosa go on the weekend?",
+          "options": [
+            {
+              "text": "a dance club",
+              "picture": "🕺🏾"
+            },
+            {
+              "text": "the library",
+              "picture": "📚"
+            },
+            {
+              "text": "the hospital",
+              "picture": "🏥"
+            }
+          ],
+          "answer": 0,
+          "explain": "She goes out to a dance club."
+        }
+      ]
+    },
+    {
+      "id": "v3-likes",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Sam's Likes and Dislikes",
+      "picture": "👍🏾",
+      "sentences": [
+        "Sam likes cooking, and he loves eating.",
+        "He dislikes washing the dishes, and he hates taking out the garbage.",
+        "He doesn't mind cleaning the house.",
+        "His girlfriend enjoys shopping for clothes, but she hates paying bills.",
+        "Sam likes music more than movies.",
+        "His girlfriend likes movies as much as music, but she likes sports less than Sam does."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Sam hate?",
+          "options": [
+            {
+              "text": "taking out the garbage",
+              "picture": "🗑️"
+            },
+            {
+              "text": "cooking",
+              "picture": "🧑🏾‍🍳"
+            }
+          ],
+          "answer": 0,
+          "explain": "He hates taking out the garbage."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Sam mind cleaning the house?",
+          "answer": false,
+          "explain": "No. He doesn't mind cleaning the house."
+        },
+        {
+          "type": "choice",
+          "question": "What does his girlfriend enjoy?",
+          "options": [
+            {
+              "text": "shopping for clothes",
+              "picture": "🛍️"
+            },
+            {
+              "text": "paying bills",
+              "picture": "📨"
+            },
+            {
+              "text": "washing dishes",
+              "picture": "🧼"
+            }
+          ],
+          "answer": 0,
+          "explain": "She enjoys shopping for clothes."
+        }
+      ]
+    },
+    {
+      "id": "v3-freetime",
+      "group": "Ventures 3 · Unit 1",
+      "title": "A Free Weekend",
+      "picture": "🎾",
+      "sentences": [
+        "On the weekend, Mei has free time.",
+        "In the morning, she jogs in the park or works out at the gym.",
+        "In the afternoon, she plays tennis with her sister.",
+        "Her brother likes camping near the ocean.",
+        "He loves being outdoors and watching the birds.",
+        "Next month, they will take a trip on his motorcycle."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Mei play with her sister?",
+          "options": [
+            {
+              "text": "tennis",
+              "picture": "🎾"
+            },
+            {
+              "text": "guitar",
+              "picture": "🎸"
+            },
+            {
+              "text": "cards",
+              "picture": "🃏"
+            }
+          ],
+          "answer": 0,
+          "explain": "She plays tennis with her sister."
+        },
+        {
+          "type": "yesno",
+          "question": "Does her brother like camping?",
+          "answer": true,
+          "explain": "Yes. He likes camping near the ocean."
+        },
+        {
+          "type": "choice",
+          "question": "How will they take a trip?",
+          "options": [
+            {
+              "text": "on a motorcycle",
+              "picture": "🏍️"
+            },
+            {
+              "text": "on an airplane",
+              "picture": "✈️"
+            }
+          ],
+          "answer": 0,
+          "explain": "They will take a trip on his motorcycle."
+        }
+      ]
+    },
+    {
+      "id": "v3-active",
+      "group": "Ventures 3 · Unit 1",
+      "title": "An Active Grandmother",
+      "picture": "🏃🏾‍♀️",
+      "sentences": [
+        "Ana is a grandmother, and she is very active.",
+        "She exercises three times a week.",
+        "She walks on the beach with her husband every Sunday.",
+        "She also spends time in her garden.",
+        "On Friday night, she goes dancing with her friends.",
+        "Sports are not her favorite, but she loves to move."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Where does Ana walk on Sunday?",
+          "options": [
+            {
+              "text": "on the beach",
+              "picture": "🏖️"
+            },
+            {
+              "text": "at the bank",
+              "picture": "🏦"
+            }
+          ],
+          "answer": 0,
+          "explain": "She walks on the beach."
+        },
+        {
+          "type": "choice",
+          "question": "Where does she spend time?",
+          "options": [
+            {
+              "text": "in her garden",
+              "picture": "🌻"
+            },
+            {
+              "text": "at a restaurant",
+              "picture": "🍽️"
+            },
+            {
+              "text": "at the bus stop",
+              "picture": "🚏"
+            }
+          ],
+          "answer": 0,
+          "explain": "She spends time in her garden."
+        },
+        {
+          "type": "yesno",
+          "question": "Are sports her favorite?",
+          "answer": false,
+          "explain": "No. Sports are not her favorite."
+        }
+      ]
+    },
+    {
+      "id": "v3-music",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Kofi Loves Music",
+      "picture": "🎸",
+      "sentences": [
+        "Kofi is a musician, and he loves music.",
+        "He plays two instruments, the guitar and the piano.",
+        "On Saturday, he sings at a free concert in the park.",
+        "His wife likes to paint pictures of the musicians.",
+        "At night, they watch a movie or read a magazine.",
+        "They also listen to music on their phones."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What instrument does Kofi play?",
+          "options": [
+            {
+              "text": "the guitar",
+              "picture": "🎸"
+            },
+            {
+              "text": "the drums",
+              "picture": "🥁"
+            },
+            {
+              "text": "the violin",
+              "picture": "🎻"
+            }
+          ],
+          "answer": 0,
+          "explain": "He plays the guitar and the piano."
+        },
+        {
+          "type": "yesno",
+          "question": "Is the concert free?",
+          "answer": true,
+          "explain": "Yes. It is a free concert."
+        },
+        {
+          "type": "choice",
+          "question": "What does his wife paint?",
+          "options": [
+            {
+              "text": "pictures",
+              "picture": "🖼️"
+            },
+            {
+              "text": "the house",
+              "picture": "🏠"
+            }
+          ],
+          "answer": 0,
+          "explain": "She paints pictures of the musicians."
+        }
+      ]
+    },
+    {
+      "id": "v3-online",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Hana Goes Online",
+      "picture": "🌐",
+      "sentences": [
+        "Hana uses the Internet every day.",
+        "She goes online to read the news.",
+        "Today, she finds a Web page about English classes.",
+        "She wants to learn a new language.",
+        "She sends a text to her son about the class.",
+        "He texts back, 'Great idea, Mom!'"
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does Hana use every day?",
+          "options": [
+            {
+              "text": "the Internet",
+              "picture": "🌐"
+            },
+            {
+              "text": "a motorcycle",
+              "picture": "🏍️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She uses the Internet every day."
+        },
+        {
+          "type": "choice",
+          "question": "What does she want to learn?",
+          "options": [
+            {
+              "text": "a new language",
+              "picture": "🗣️"
+            },
+            {
+              "text": "to cook",
+              "picture": "🍳"
+            },
+            {
+              "text": "to dance",
+              "picture": "💃🏾"
+            }
+          ],
+          "answer": 0,
+          "explain": "She wants to learn a new language."
+        },
+        {
+          "type": "yesno",
+          "question": "Does she send a text to her son?",
+          "answer": true,
+          "explain": "Yes. She sends a text to her son."
+        }
+      ]
+    },
+    {
+      "id": "v3-meeting",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Meeting New People",
+      "picture": "🤝🏾",
+      "sentences": [
+        "Joe moves to a new city, and he wants to socialize.",
+        "He joins a group at the community center.",
+        "Every Thursday, the group has a meeting.",
+        "At the meeting, people share food and advice.",
+        "Everybody is kind and helpful.",
+        "Joe meets a man who is seeking a friend, too, and now they spend time together."
+      ],
+      "questions": [
+        {
+          "type": "yesno",
+          "question": "Does Joe want to socialize?",
+          "answer": true,
+          "explain": "Yes. He wants to socialize."
+        },
+        {
+          "type": "choice",
+          "question": "When does the group have a meeting?",
+          "options": [
+            {
+              "text": "every Thursday",
+              "picture": "📅"
+            },
+            {
+              "text": "every morning",
+              "picture": "🌅"
+            }
+          ],
+          "answer": 0,
+          "explain": "The group has a meeting every Thursday."
+        },
+        {
+          "type": "choice",
+          "question": "What do people share at the meeting?",
+          "options": [
+            {
+              "text": "food and advice",
+              "picture": "🍲"
+            },
+            {
+              "text": "cars",
+              "picture": "🚗"
+            },
+            {
+              "text": "clothes",
+              "picture": "👕"
+            }
+          ],
+          "answer": 0,
+          "explain": "They share food and advice."
+        }
+      ]
+    },
+    {
+      "id": "v3-career",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Choosing a Career",
+      "picture": "💼",
+      "sentences": [
+        "Maria is thinking about a new career.",
+        "She asks a counselor at her school for help.",
+        "The counselor asks, 'What kind of person are you?'",
+        "Maria is creative and artistic, so she could be a designer, a painter, or a photographer.",
+        "She is also patient and hard-working.",
+        "The counselor says, 'A job as an architect is a good fit for you.'"
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Who does Maria ask for help?",
+          "options": [
+            {
+              "text": "a counselor",
+              "picture": "🧑🏾‍💼"
+            },
+            {
+              "text": "a nurse",
+              "picture": "🧑🏾‍⚕️"
+            },
+            {
+              "text": "a dancer",
+              "picture": "🩰"
+            }
+          ],
+          "answer": 0,
+          "explain": "She asks a counselor for help."
+        },
+        {
+          "type": "yesno",
+          "question": "Is Maria creative?",
+          "answer": true,
+          "explain": "Yes. Maria is creative and artistic."
+        },
+        {
+          "type": "choice",
+          "question": "What job is a good fit for her?",
+          "options": [
+            {
+              "text": "architect",
+              "picture": "📐"
+            },
+            {
+              "text": "scientist",
+              "picture": "🔬"
+            }
+          ],
+          "answer": 0,
+          "explain": "A job as an architect is a good fit."
+        }
+      ]
+    },
+    {
+      "id": "v3-class-jobs",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Jobs in Our Class",
+      "picture": "🧑🏾‍🏫",
+      "sentences": [
+        "In our English class, everybody has a different job.",
+        "Tom is a nurse at the hospital, and Lin is a social worker.",
+        "Ahmed is a computer programmer, and Sofia is a scientist.",
+        "Before she became a teacher, our teacher was a dancer and a writer.",
+        "Her brother is a musician, and her sister is an artist."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What is Tom's job?",
+          "options": [
+            {
+              "text": "nurse",
+              "picture": "🧑🏾‍⚕️"
+            },
+            {
+              "text": "writer",
+              "picture": "✍🏾"
+            },
+            {
+              "text": "scientist",
+              "picture": "🔬"
+            }
+          ],
+          "answer": 0,
+          "explain": "Tom is a nurse."
+        },
+        {
+          "type": "choice",
+          "question": "Where does Tom work?",
+          "options": [
+            {
+              "text": "at the hospital",
+              "picture": "🏥"
+            },
+            {
+              "text": "at the gym",
+              "picture": "🏋🏾‍♀️"
+            }
+          ],
+          "answer": 0,
+          "explain": "He works at the hospital."
+        },
+        {
+          "type": "yesno",
+          "question": "Was the teacher a dancer before?",
+          "answer": true,
+          "explain": "Yes. She was a dancer and a writer."
+        }
+      ]
+    },
+    {
+      "id": "v3-personality-test",
+      "group": "Ventures 3 · Unit 1",
+      "title": "A Personality Test",
+      "picture": "🎭",
+      "sentences": [
+        "Kim reads an article in a magazine.",
+        "The title is 'What Kind of Personality Do You Have?'",
+        "The article says, 'Imagine you have a free day. What do you do?'",
+        "Kim guesses she is an intellectual person, because she likes reading.",
+        "The test predicts that she is intelligent, honest, and reliable.",
+        "She thinks the test is interesting, but it is probably not perfect."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Where does Kim read the article?",
+          "options": [
+            {
+              "text": "in a magazine",
+              "picture": "📰"
+            },
+            {
+              "text": "on a bus",
+              "picture": "🚌"
+            }
+          ],
+          "answer": 0,
+          "explain": "She reads it in a magazine."
+        },
+        {
+          "type": "yesno",
+          "question": "Does Kim think the test is perfect?",
+          "answer": false,
+          "explain": "No. She thinks it is probably not perfect."
+        },
+        {
+          "type": "choice",
+          "question": "What does Kim like?",
+          "options": [
+            {
+              "text": "reading",
+              "picture": "📖"
+            },
+            {
+              "text": "camping",
+              "picture": "⛺"
+            },
+            {
+              "text": "jogging",
+              "picture": "🏃🏾"
+            }
+          ],
+          "answer": 0,
+          "explain": "She likes reading."
+        }
+      ]
+    },
+    {
+      "id": "v3-neighbor",
+      "group": "Ventures 3 · Unit 1",
+      "title": "My Neighbor, Mr. Lee",
+      "picture": "🧓🏾",
+      "sentences": [
+        "My neighbor, Mr. Lee, is tall and good-looking.",
+        "He has salt-and-pepper hair, but he is young at heart.",
+        "He is divorced, and now he is single.",
+        "He is a nonsmoker, and he is very gentle and warm.",
+        "He is a highly-trained cook at a restaurant.",
+        "He works hard, and he is never late."
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What kind of hair does Mr. Lee have?",
+          "options": [
+            {
+              "text": "salt-and-pepper hair",
+              "picture": "🧂"
+            },
+            {
+              "text": "red hair",
+              "picture": "🟥"
+            }
+          ],
+          "answer": 0,
+          "explain": "He has salt-and-pepper hair."
+        },
+        {
+          "type": "yesno",
+          "question": "Is Mr. Lee married?",
+          "answer": false,
+          "explain": "No. He is divorced, and now he is single."
+        },
+        {
+          "type": "choice",
+          "question": "What is his job?",
+          "options": [
+            {
+              "text": "cook",
+              "picture": "🧑🏾‍🍳"
+            },
+            {
+              "text": "teacher",
+              "picture": "🧑🏾‍🏫"
+            },
+            {
+              "text": "nurse",
+              "picture": "🧑🏾‍⚕️"
+            }
+          ],
+          "answer": 0,
+          "explain": "He is a cook at a restaurant."
+        }
+      ]
+    },
+    {
+      "id": "v3-morning",
+      "group": "Ventures 3 · Unit 1",
+      "title": "A Busy Morning",
+      "picture": "🌄",
+      "sentences": [
+        "Every morning, Fatima gets up early.",
+        "She eats breakfast with her whole family.",
+        "Then she drives her car to school, where she learns English.",
+        "After class, she pays the phone bill and stands in line at the bank.",
+        "At home, she does her homework and washes the clothes."
+      ],
+      "questions": [
+        {
+          "type": "yesno",
+          "question": "Does Fatima get up early?",
+          "answer": true,
+          "explain": "Yes. She gets up early."
+        },
+        {
+          "type": "choice",
+          "question": "How does she go to school?",
+          "options": [
+            {
+              "text": "in her car",
+              "picture": "🚗"
+            },
+            {
+              "text": "on a bus",
+              "picture": "🚌"
+            },
+            {
+              "text": "on a motorcycle",
+              "picture": "🏍️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She drives her car to school."
+        },
+        {
+          "type": "choice",
+          "question": "What does she pay after class?",
+          "options": [
+            {
+              "text": "the phone bill",
+              "picture": "📨"
+            },
+            {
+              "text": "the doctor",
+              "picture": "👩🏾‍⚕️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She pays the phone bill."
+        }
+      ]
+    },
+    {
+      "id": "v3-paragraph",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Writing a Paragraph",
+      "picture": "📝",
+      "sentences": [
+        "Today our teacher explains how to write a paragraph.",
+        "A paragraph has a title, a few sentences, and a conclusion.",
+        "She describes each part, and she gives an example.",
+        "Then we learn the meaning of some new words.",
+        "We look for each definition, and we scan the text.",
+        "Our paragraph must include one comparison, like 'I like tea more than coffee.'"
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "What does the teacher explain?",
+          "options": [
+            {
+              "text": "how to write a paragraph",
+              "picture": "📝"
+            },
+            {
+              "text": "how to cook rice",
+              "picture": "🍚"
+            }
+          ],
+          "answer": 0,
+          "explain": "She explains how to write a paragraph."
+        },
+        {
+          "type": "choice",
+          "question": "What comes at the end of a paragraph?",
+          "options": [
+            {
+              "text": "a conclusion",
+              "picture": "🏁"
+            },
+            {
+              "text": "a title",
+              "picture": "🔖"
+            }
+          ],
+          "answer": 0,
+          "explain": "The conclusion is the last part."
+        },
+        {
+          "type": "yesno",
+          "question": "Must the paragraph include a comparison?",
+          "answer": true,
+          "explain": "Yes. It must include one comparison."
+        }
+      ]
+    },
+    {
+      "id": "v3-grammar-class",
+      "group": "Ventures 3 · Unit 1",
+      "title": "Grammar Class",
+      "picture": "🔤",
+      "sentences": [
+        "In grammar class, we study verbs.",
+        "Some verbs are irregular verbs, like go and went.",
+        "First, we write a statement, like 'I like jogging.'",
+        "Then we change it to a negative: 'I don't like jogging.'",
+        "Jogging is a gerund, and friendly is an adjective.",
+        "Our teacher says, 'Learning depends on practice, so find a way to practice every day.'"
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Which one is an irregular verb?",
+          "options": [
+            {
+              "text": "go and went",
+              "picture": "🔀"
+            },
+            {
+              "text": "walk and walked",
+              "picture": "🚶🏾‍♀️"
+            }
+          ],
+          "answer": 0,
+          "explain": "Go changes to went, so it is irregular."
+        },
+        {
+          "type": "choice",
+          "question": "Which sentence is negative?",
+          "options": [
+            {
+              "text": "I don't like jogging.",
+              "picture": "👎🏾"
+            },
+            {
+              "text": "I like jogging.",
+              "picture": "👍🏾"
+            }
+          ],
+          "answer": 0,
+          "explain": "I don't like jogging is negative."
+        },
+        {
+          "type": "yesno",
+          "question": "Is jogging a gerund?",
+          "answer": true,
+          "explain": "Yes. Jogging is a gerund."
+        }
+      ]
+    },
+    {
+      "id": "v3-problem",
+      "group": "Ventures 3 · Unit 1",
+      "title": "A Problem at Home",
+      "picture": "😟",
+      "sentences": [
+        "Sara feels sad because she has a problem.",
+        "Her son plays games on his phone all day, and he is not active.",
+        "She asks her friend for help.",
+        "Her friend says, 'It is a common problem, so find an activity you can do together.'",
+        "Now they walk in the park every Saturday, and they both feel happy."
+      ],
+      "questions": [
+        {
+          "type": "yesno",
+          "question": "Does Sara have a problem?",
+          "answer": true,
+          "explain": "Yes. She has a problem at home."
+        },
+        {
+          "type": "choice",
+          "question": "Who does she ask for help?",
+          "options": [
+            {
+              "text": "her friend",
+              "picture": "🙋🏾‍♀️"
+            },
+            {
+              "text": "her doctor",
+              "picture": "👩🏾‍⚕️"
+            }
+          ],
+          "answer": 0,
+          "explain": "She asks her friend for help."
+        },
+        {
+          "type": "choice",
+          "question": "What do they do on Saturday?",
+          "options": [
+            {
+              "text": "walk in the park",
+              "picture": "🚶🏾‍♀️"
+            },
+            {
+              "text": "watch a movie",
+              "picture": "🎬"
+            },
+            {
+              "text": "go to the beach",
+              "picture": "🏖️"
+            }
+          ],
+          "answer": 0,
+          "explain": "They walk in the park."
+        }
+      ]
+    }
+  ]
+}
